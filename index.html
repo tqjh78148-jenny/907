@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新北市立頭前國中 907班會考落點與弱點診斷系統（907班導劉真妮製作）</title>
+  <!-- Chart.js for data visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #3b82f6;
+      --primary-dark: #1e293b;
+      --secondary: #0d9488;
+      --accent: #f59e0b;
+      --danger: #ef4444;
+      --success: #10b981;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'PingFang TC', 'Microsoft JhengHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+      color: white;
+      padding: 1.8rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(30, 58, 138, 0.2);
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.4rem;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    .header-badges {
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+      margin-top: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(4px);
+      padding: 0.25rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.5rem 1rem;
+      flex: 1;
+    }
+
+    /* Search Box */
+    .search-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 1.8rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      margin-bottom: 2rem;
+      transition: transform 0.2s ease;
+    }
+
+    .search-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .search-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.2rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .form-group label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .form-group input, .form-group select {
+      padding: 0.75rem 1rem;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 1rem;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .form-group input:focus, .form-group select:focus {
+      border-color: var(--primary-light);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.75rem 1.8rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary {
+      background: var(--primary-light);
+      color: white;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #e2e8f0;
+      color: var(--text-main);
+    }
+
+    .btn-secondary:hover {
+      background: #cbd5e1;
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1.5px solid var(--primary-light);
+      color: var(--primary-light);
+    }
+
+    .btn-outline:hover {
+      background: rgba(59, 130, 246, 0.08);
+    }
+
+    /* Quick select helper */
+    .quick-tags {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .quick-tag {
+      background: #f1f5f9;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      cursor: pointer;
+      border: 1px solid #e2e8f0;
+      transition: all 0.2s;
+    }
+
+    .quick-tag:hover {
+      background: #e2e8f0;
+      color: var(--primary);
+    }
+
+    /* Student Result Section */
+    .result-section {
+      display: none;
+      animation: fadeIn 0.4s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Student Profile Header Card */
+    .student-profile {
+      background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      color: white;
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.8rem;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .student-profile::after {
+      content: '907';
+      position: absolute;
+      right: 10px;
+      bottom: -20px;
+      font-size: 8rem;
+      font-weight: 900;
+      opacity: 0.05;
+      pointer-events: none;
+    }
+
+    .profile-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+    }
+
+    .profile-name-group h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .profile-meta {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-top: 0.4rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .score-badge-huge {
+      background: rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(8px);
+      border: 1.5px solid rgba(255, 255, 255, 0.3);
+      padding: 0.8rem 1.6rem;
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    .score-badge-huge .num {
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1;
+      color: #fef08a;
+    }
+
+    .score-badge-huge .label {
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-top: 0.2rem;
+      opacity: 0.9;
+    }
+
+    /* Rank Stats Grid */
+    .rank-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .rank-item {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.7rem 1rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .rank-item .val {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .rank-item .txt {
+      font-size: 0.75rem;
+      opacity: 0.8;
+    }
+
+    /* Subjects Detail Section */
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin: 1.8rem 0 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.6rem;
+    }
+
+    .subject-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 1.2rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .subject-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 1.4rem;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .subject-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5px;
+      height: 100%;
+    }
+
+    .card-A::before { background: #10b981; }
+    .card-B::before { background: #3b82f6; }
+    .card-C::before { background: #ef4444; }
+
+    .subj-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.8rem;
+    }
+
+    .subj-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .subj-grade {
+      font-size: 1.15rem;
+      font-weight: 800;
+      padding: 0.25rem 0.8rem;
+      border-radius: 8px;
+    }
+
+    .grade-A { background: #d1fae5; color: #065f46; }
+    .grade-B { background: #dbeafe; color: #1e40af; }
+    .grade-C { background: #fee2e2; color: #991b1b; }
+
+    .subj-score-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+      margin-bottom: 0.6rem;
+      color: var(--text-muted);
+    }
+
+    .subj-score-val {
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .subj-gap {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      color: #92400e;
+      padding: 0.5rem 0.8rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-top: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .subj-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.6rem;
+      line-height: 1.5;
+    }
+
+    /* Strategy Box (Weakness Diagnosis) */
+    .strategy-card {
+      background: linear-gradient(to right, #f8fafc, #eff6ff);
+      border-left: 6px solid var(--primary-light);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .strategy-card h3 {
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .strategy-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .strategy-list li {
+      position: relative;
+      padding-left: 1.6rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .strategy-list li::before {
+      content: '👉';
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    /* Schools Placement Grid */
+    .school-tier-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 1.2rem 0 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .tier-dream { color: #8b5cf6; }
+    .tier-target { color: #2563eb; }
+    .tier-safe { color: #059669; }
+
+    .schools-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .school-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 1.4rem;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .school-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);
+      border-color: #cbd5e1;
+    }
+
+    .sch-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.8rem;
+    }
+
+    .sch-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+    }
+
+    .sch-type {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-top: 0.2rem;
+      display: inline-block;
+    }
+
+    .sch-score-box {
+      text-align: right;
+    }
+
+    .sch-min-score {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1;
+    }
+
+    .sch-score-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .transit-box {
+      background: #f8fafc;
+      border: 1px solid #edf2f7;
+      border-radius: 10px;
+      padding: 0.9rem;
+      margin-top: 0.8rem;
+    }
+
+    .transit-time {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #047857;
+      margin-bottom: 0.4rem;
+    }
+
+    .transit-route {
+      font-size: 0.85rem;
+      color: #475569;
+      line-height: 1.5;
+    }
+
+    /* Print View */
+    @media print {
+      body { background: white; }
+      header, .search-card, .btn-group, .quick-tags, footer, .teacher-section { display: none !important; }
+      .result-section { display: block !important; }
+      .student-profile { background: #1e3a8a !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .school-card, .subject-card { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; }
+    }
+
+    /* Footer */
+    footer {
+      background: white;
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: auto;
+    }
+
+
+    .alert-error {
+      background: #fee2e2;
+      border: 1px solid #fca5a5;
+      color: #991b1b;
+      padding: 0.8rem 1rem;
+      border-radius: 10px;
+      margin-bottom: 1.2rem;
+      display: none;
+      align-items: center;
+      gap: 0.6rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>新北市立頭前國中 907班</h1>
+    <div style="display:inline-block; background:rgba(255,255,255,0.22); border:1.5px solid rgba(255,255,255,0.4); padding:0.35rem 1.2rem; border-radius:999px; margin:0.4rem 0; font-size:1.1rem; font-weight:700; color:#fef08a; box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+      <i class="fa-solid fa-chalkboard-user"></i> 907班導劉真妮製作
+    </div>
+    <p style="margin-top:0.3rem; opacity:0.95;">115年國中教育會考落點預估與學科弱點精準診斷系統</p>
+    <div class="header-badges">
+      <span class="badge"><i class="fa-solid fa-school"></i> 學校起點：新莊區中原路2號</span>
+      <span class="badge"><i class="fa-solid fa-chart-line"></i> 落點依據：林群數學115年預估表</span>
+      <span class="badge"><i class="fa-solid fa-bus"></i> 整合大眾運輸交通通勤時間</span>
+      <span class="badge"><i class="fa-solid fa-user-check"></i> 班導師：劉真妮老師</span>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Search Form -->
+    <div class="search-card">
+      <div class="search-title">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>家長查詢系統（907班導劉真妮製作）</span>
+      </div>
+      <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:1.2rem;">
+        請輸入學生的「班級、座號、姓名」，系統將為您生成個人各科弱點診斷、大眾運輸通勤時間與落點學校分析。
+      </p>
+
+      <div id="errorBox" class="alert-error">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <span id="errorMessage">查無此學生資料，請確認班級、座號與姓名是否正確。</span>
+      </div>
+
+      <form id="searchForm" onsubmit="handleSearch(event)">
+        <div class="search-grid">
+          <div class="form-group">
+            <label for="inputClass"><i class="fa-solid fa-chalkboard-user"></i> 班級</label>
+            <input type="text" id="inputClass" placeholder="請輸入 907 或 7" value="907" required>
+          </div>
+          <div class="form-group">
+            <label for="inputSeat"><i class="fa-solid fa-id-card-clip"></i> 座號</label>
+            <input type="text" id="inputSeat" placeholder="例如：01 或 1" required>
+          </div>
+          <div class="form-group">
+            <label for="inputName"><i class="fa-solid fa-user"></i> 學生姓名</label>
+            <input type="text" id="inputName" placeholder="例如：陳品澄" required>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button type="submit" class="btn btn-primary">
+            <i class="fa-solid fa-search"></i> 立即查詢個人成績與落點
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="resetForm()">
+            <i class="fa-solid fa-rotate-left"></i> 清除重新輸入
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Student Detail Result View -->
+    <div id="resultSection" class="result-section">
+
+      <!-- Student Profile Card -->
+      <div class="student-profile">
+        <div class="profile-top">
+          <div class="profile-name-group">
+            <h2>
+              <span id="resName">賴律穎</span>
+              <span id="resGenderBadge" class="badge" style="font-size:0.85rem;">女生</span>
+            </h2>
+            <div class="profile-meta">
+              <span><i class="fa-solid fa-graduation-cap"></i> 頭前國中 907 班</span>
+              <span><i class="fa-solid fa-hashtag"></i> 座號 <strong id="resSeat">21</strong></span>
+              <span><i class="fa-solid fa-tags"></i> 標示組合：<strong id="resPattern">2A++, 3A+</strong></span>
+            </div>
+          </div>
+          <div class="score-badge-huge">
+            <div class="num" id="resTotalPts">32</div>
+            <div class="label">會考總積分 (未含作文)</div>
+          </div>
+        </div>
+
+        <div class="rank-grid">
+          <div class="rank-item">
+            <div class="val" id="resRankClass">1</div>
+            <div class="txt">班級排名</div>
+          </div>
+          <div class="rank-item">
+            <div class="val" id="resRankSchool">2</div>
+            <div class="txt">全校排名</div>
+          </div>
+          <div class="rank-item">
+            <div class="val" id="resRankGender">1,484</div>
+            <div class="txt">基北全區性別排名</div>
+          </div>
+          <div class="rank-item">
+            <div class="val" id="resRankDistrict">3,202</div>
+            <div class="txt">基北全區總排名</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.2rem; display: flex; justify-content: flex-end;">
+          <button class="btn btn-outline" style="color:white; border-color:rgba(255,255,255,0.6);" onclick="window.print()">
+            <i class="fa-solid fa-print"></i> 列印 / 另存為 PDF 成績通知單
+          </button>
+        </div>
+      </div>
+
+      <!-- Weakness Diagnosis & Strategy Section -->
+      <div class="strategy-card">
+        <h3><i class="fa-solid fa-bullseye"></i> 學科弱點深度診斷與衝刺加分錦囊</h3>
+        <ul id="resWeaknessList" class="strategy-list">
+          <!-- Injected via JS -->
+        </ul>
+      </div>
+
+      <!-- Subjects Grid -->
+      <div class="section-title">
+        <span><i class="fa-solid fa-book-open"></i> 各科詳細表現與提分契機（臨門一腳診斷）</span>
+      </div>
+
+      <div id="subjectsContainer" class="subject-cards">
+        <!-- Injected via JS -->
+      </div>
+
+      <!-- Placement Recommendations -->
+      <div class="section-title">
+        <span><i class="fa-solid fa-map-location-dot"></i> 115年高中職落點推薦（林群數學積分預估）</span>
+      </div>
+      <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+        * 註：落點標準依據林群數學115年會考落點積分預估表，整合基北區全區男女排位與學生地緣性；交通時間以【新北市立頭前國中校門（中原路）】出發，搭乘大眾運輸（捷運環狀線/中和新蘆線/公車）計算。
+      </p>
+
+      <!-- Target Schools -->
+      <div class="school-tier-title tier-target">
+        <i class="fa-solid fa-circle-check"></i> 最佳落點目標學校（實力對齊、最推薦志願）
+      </div>
+      <div id="targetSchoolsContainer" class="schools-container"></div>
+
+      <!-- Dream Schools -->
+      <div class="school-tier-title tier-dream">
+        <i class="fa-solid fa-rocket"></i> 夢幻衝刺學校（弱科提分 + 作文5~6級分進取志願）
+      </div>
+      <div id="dreamSchoolsContainer" class="schools-container"></div>
+
+      <!-- Safe Schools -->
+      <div class="school-tier-title tier-safe">
+        <i class="fa-solid fa-shield-halved"></i> 保守穩固學校（掌握度極高、優質保底志願）
+      </div>
+      <div id="safeSchoolsContainer" class="schools-container"></div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p style="font-weight: 700; color: var(--primary); font-size: 0.95rem;">
+      <i class="fa-solid fa-graduation-cap"></i> 新北市立頭前國中 907班導劉真妮製作 &copy; 115學年度國中教育會考專用
+    </p>
+    <p style="margin-top: 0.3rem; font-size: 0.8rem;">落點積分依據 115 年國中教育會考積分預估標準，實際錄取結果仍以國中教育會考免試入學分發放榜為準。</p>
+  </footer>
+
+  <!-- Include Student Data Script -->
+  <script src="students_data.js"></script>
+  <script>
+    function resetForm() {
+      document.getElementById('inputClass').value = '907';
+      document.getElementById('inputSeat').value = '';
+      document.getElementById('inputName').value = '';
+      document.getElementById('resultSection').style.display = 'none';
+      document.getElementById('errorBox').style.display = 'none';
+    }
+
+    function handleSearch(e) {
+      if (e) e.preventDefault();
+      const inClass = document.getElementById('inputClass').value.trim();
+      const inSeat = document.getElementById('inputSeat').value.trim();
+      const inName = document.getElementById('inputName').value.trim();
+
+      const errorBox = document.getElementById('errorBox');
+      const resultSec = document.getElementById('resultSection');
+
+      // 班級正規化：接受 907, 07, 7
+      const isClassMatch = (c) => {
+        return c === inClass || c.replace(/^0+/, '') === inClass.replace(/^0+/, '') || inClass === '907' || inClass === '07' || inClass === '7';
+      };
+
+      // 座號正規化：接受 1 或 01
+      const isSeatMatch = (s) => {
+        return parseInt(s, 10) === parseInt(inSeat, 10);
+      };
+
+      // 姓名正規化：去空格
+      const isNameMatch = (n) => {
+        return n.replace(/\s+/g, '') === inName.replace(/\s+/g, '');
+      };
+
+      const found = STUDENTS_DATABASE.find(s => isSeatMatch(s.seat) && isNameMatch(s.name));
+
+      if (!found) {
+        errorBox.style.display = 'flex';
+        resultSec.style.display = 'none';
+        return;
+      }
+
+      errorBox.style.display = 'none';
+      renderStudentResult(found);
+      resultSec.style.display = 'block';
+      resultSec.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function renderStudentResult(s) {
+      // Profile Info
+      document.getElementById('resName').textContent = s.name;
+      document.getElementById('resSeat').textContent = s.seat;
+      document.getElementById('resPattern').textContent = s.pattern;
+      document.getElementById('resTotalPts').textContent = s.total_pts;
+      document.getElementById('resGenderBadge').textContent = s.gender === '男' ? '男同學' : '女同學';
+
+      document.getElementById('resRankClass').textContent = s.rank_class || '-';
+      document.getElementById('resRankSchool').textContent = s.rank_school || '-';
+      document.getElementById('resRankGender').textContent = s.rank_gender ? Number(s.rank_gender).toLocaleString() : '-';
+      document.getElementById('resRankDistrict').textContent = s.rank_district ? Number(s.rank_district).toLocaleString() : '-';
+
+      // Weakness & Strategy
+      const wList = document.getElementById('resWeaknessList');
+      wList.innerHTML = '';
+      if (s.weakness_summary && s.weakness_summary.length > 0) {
+        s.weakness_summary.forEach(txt => {
+          const li = document.createElement('li');
+          li.textContent = txt;
+          wList.appendChild(li);
+        });
+      } else {
+        const li = document.createElement('li');
+        li.textContent = '各科表現均衡穩定，繼續保持模擬題庫節奏與歷屆試題演練。';
+        wList.appendChild(li);
+      }
+
+      // Subject Cards
+      const subContainer = document.getElementById('subjectsContainer');
+      subContainer.innerHTML = '';
+
+      const subjectsArr = [
+        { key: 'chinese', icon: 'fa-book' },
+        { key: 'english', icon: 'fa-language' },
+        { key: 'math', icon: 'fa-calculator' },
+        { key: 'society', icon: 'fa-landmark' },
+        { key: 'science', icon: 'fa-flask' }
+      ];
+
+      subjectsArr.forEach(item => {
+        const sub = s.subjects[item.key];
+        const card = document.createElement('div');
+        const mainGrade = sub.level.charAt(0); // A, B, C
+        card.className = `subject-card card-${mainGrade}`;
+
+        let scoreRowHtml = '';
+        if (sub.subject === '國文' || sub.subject === '社會' || sub.subject === '自然') {
+          scoreRowHtml = `
+            <div class="subj-score-row">
+              <span>答對題數：</span>
+              <span class="subj-score-val">${sub.correct} / ${sub.max} 題</span>
+            </div>
+            <div class="subj-score-row">
+              <span>會考積分：</span>
+              <span class="subj-score-val">${sub.points} 分 (滿分7分)</span>
+            </div>
+          `;
+        } else if (sub.subject === '英文') {
+          scoreRowHtml = `
+            <div class="subj-score-row">
+              <span>加權總分：</span>
+              <span class="subj-score-val">${sub.score.toFixed(2)} 分 / 100</span>
+            </div>
+            <div class="subj-score-row">
+              <span>細項答對：</span>
+              <span class="subj-score-val">閱讀 ${sub.r_correct} 題(${sub.r_lvl})、聽力 ${sub.l_correct} 題(${sub.l_lvl})</span>
+            </div>
+          `;
+        } else if (sub.subject === '數學') {
+          scoreRowHtml = `
+            <div class="subj-score-row">
+              <span>加權總分：</span>
+              <span class="subj-score-val">${sub.score.toFixed(1)} 分 / 100</span>
+            </div>
+            <div class="subj-score-row">
+              <span>細項得分：</span>
+              <span class="subj-score-val">選擇對 ${sub.choice_correct} 題、非選得 ${sub.non_choice_total}/6 分</span>
+            </div>
+          `;
+        }
+
+        let gapHtml = '';
+        if (sub.level === 'A++') {
+          gapHtml = `<div class="subj-gap" style="background:#ecfdf5; border-color:#a7f3d0; color:#065f46;"><i class="fa-solid fa-crown"></i> 頂尖精熟！保持最佳狀態即可</div>`;
+        } else if (sub.next_diff > 0) {
+          const unit = (sub.subject === '數學' || sub.subject === '英文') ? '分' : '題';
+          gapHtml = `<div class="subj-gap"><i class="fa-solid fa-bolt"></i> 僅差 <strong>${sub.next_diff} ${unit}</strong> 即可晉升下一標示（積分+1契機）</div>`;
+        }
+
+        card.innerHTML = `
+          <div>
+            <div class="subj-header">
+              <div class="subj-name"><i class="fa-solid ${item.icon}"></i> ${sub.subject}</div>
+              <div class="subj-grade grade-${mainGrade}">${sub.level}</div>
+            </div>
+            ${scoreRowHtml}
+            ${gapHtml}
+          </div>
+          <div class="subj-desc">
+            ${sub.desc}
+            ${sub.detail_note ? `<br><strong>診斷備註：</strong>${sub.detail_note}` : ''}
+            ${sub.non_choice_note ? `<br><strong>診斷備註：</strong>${sub.non_choice_note}` : ''}
+          </div>
+        `;
+        subContainer.appendChild(card);
+      });
+
+      // School Tiers
+      renderSchoolList('targetSchoolsContainer', s.target_schools);
+      renderSchoolList('dreamSchoolsContainer', s.dream_schools);
+      renderSchoolList('safeSchoolsContainer', s.safe_schools);
+    }
+
+    function renderSchoolList(containerId, list) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = '';
+      if (!list || list.length === 0) {
+        container.innerHTML = '<div style="color:var(--text-muted); font-size:0.9rem;">依目前成績無額外標籤學校。</div>';
+        return;
+      }
+
+      list.forEach(sch => {
+        const card = document.createElement('div');
+        card.className = 'school-card';
+        card.innerHTML = `
+          <div>
+            <div class="sch-top">
+              <div>
+                <div class="sch-name">${sch.name}</div>
+                <span class="sch-type">${sch.type}</span>
+              </div>
+              <div class="sch-score-box">
+                <div class="sch-min-score">${sch.min_score}</div>
+                <div class="sch-score-label">預估門檻積分</div>
+              </div>
+            </div>
+            <div style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.4rem;">
+              <i class="fa-solid fa-ranking-star"></i> 累積排名參考：約 ${Number(sch.rank_accum).toLocaleString()} 名內
+            </div>
+          </div>
+          <div class="transit-box">
+            <div class="transit-time">
+              <i class="fa-solid fa-clock"></i> 從頭前國中出發：${sch.transit_time}
+            </div>
+            <div class="transit-route">
+              <i class="fa-solid fa-route"></i> <strong>建議路線：</strong>${sch.transit_route}
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+  </script>
+</body>
+</html>
