@@ -1,0 +1,5521 @@
+[
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "01",
+    "name": "陳品澄",
+    "gender": "男",
+    "total_pts": 9,
+    "pattern": "4B,1C",
+    "rank_class": 21,
+    "rank_school": 231,
+    "rank_district": 45790,
+    "rank_gender": 23282,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 25,
+        "max": 42,
+        "level": "B",
+        "points": 2,
+        "next_diff": 3,
+        "desc": "基礎級！差 3 題晉級 B+，核心字詞語意與白話文閱讀需多做題庫練習以提升正確率。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 18.74,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 19.69,
+        "desc": "待加強(C)！差 19.69 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 7,
+        "r_lvl": "待加強",
+        "l_correct": 6,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 7 題(待加強)、聽力答對 6 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 39.0,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 20.4,
+        "desc": "基礎起步！差 20.4 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 10,
+        "q1_score": 1,
+        "q2_score": 1,
+        "non_choice_total": 2,
+        "non_choice_note": "選擇題答對 10 題，非選第1題得 1 分、第2題得 1 分（非選總計 2/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 25,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 9,
+        "desc": "基礎起步！差 9 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 20,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 9,
+        "desc": "基礎起步！差 9 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【英文】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：國文（僅差 3 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 2/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      },
+      {
+        "name": "三重商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 26576,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "【鄰近優質高職！】從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【三和國中站】步行約 8 分鐘，或搭乘公車 299 轉乘，非常便利！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      },
+      {
+        "name": "鶯歌工商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 9.6,
+        "rank_accum": 29040,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭台鐵火車至【鶯歌火車站】，搭乘校車或公車約 5 分鐘抵達鶯歌工商（中正三路）。"
+      },
+      {
+        "name": "基隆商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 9.6,
+        "rank_accum": 29475,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "從捷運幸福站至板橋或台北車站轉搭台鐵火車至【七堵火車站】，步行約 7 分鐘抵達東新街校門。"
+      },
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "02",
+    "name": "潘宥任",
+    "gender": "男",
+    "total_pts": 5,
+    "pattern": "5C",
+    "rank_class": 30,
+    "rank_school": 389,
+    "rank_district": 55725,
+    "rank_gender": 28458,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 5,
+        "max": 42,
+        "level": "C",
+        "points": 1,
+        "next_diff": 12,
+        "desc": "待加強(C)！差 12 題即可脫 C 進入基礎 B 級（積分+1）！建議掌握基礎成語、字詞辨析與白話短文閱讀。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 33.75,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 4.68,
+        "desc": "待加強(C)！差 4.68 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 12,
+        "r_lvl": "待加強",
+        "l_correct": 12,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 12 題(待加強)、聽力答對 12 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 23.8,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 15.2,
+        "desc": "待加強(C)！差 15.2 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 7,
+        "q1_score": 0,
+        "q2_score": 0,
+        "non_choice_total": 0,
+        "non_choice_note": "選擇題答對 7 題，非選第1題得 0 分、第2題得 0 分（非選總計 0/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 10,
+        "max": 54,
+        "level": "C",
+        "points": 1,
+        "next_diff": 10,
+        "desc": "待加強(C)！差 10 題即可脫 C 進入 B（積分+1）！優先熟讀課本基礎大單元與圖表基本概念。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 15,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 4,
+        "desc": "待加強(C)！差 4 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【國文、英文、數學、社會、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：英文（僅差 4.68 分即可晉級下一標示，單字聽力加強見效快），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 0/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "03",
+    "name": "林秉樂",
+    "gender": "男",
+    "total_pts": 15,
+    "pattern": "1A+,1B++,2B,1C",
+    "rank_class": 10,
+    "rank_school": 100,
+    "rank_district": 29552,
+    "rank_gender": 15241,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 39,
+        "max": 42,
+        "level": "A+",
+        "points": 6,
+        "next_diff": 1,
+        "desc": "精熟高分段！僅差 1 題可晉級 A++，多注意字形字音或細節文意推論。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 34.71,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 3.72,
+        "desc": "待加強(C)！差 3.72 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 12,
+        "r_lvl": "待加強",
+        "l_correct": 13,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 12 題(待加強)、聽力答對 13 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 44.9,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 14.5,
+        "desc": "基礎起步！差 14.5 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 11,
+        "q1_score": 2,
+        "q2_score": 1,
+        "non_choice_total": 3,
+        "non_choice_note": "選擇題答對 11 題，非選第1題得 2 分、第2題得 1 分（非選總計 3/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 39,
+        "max": 54,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 2,
+        "desc": "基礎中段！差 2 題晉級 B++，地理地圖判讀與臺灣史/世界史因果關係需加強釐清。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 20,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 9,
+        "desc": "基礎起步！差 9 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【英文】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：國文（僅差 1 題即可晉升 A）；英文（僅差 3.72 分即可晉級下一標示，單字聽力加強見效快）；社會（僅差 2 題即可晉升 B++），只要掌握臨門一腳，總積分即可直接提升！"
+    ],
+    "dream_schools": [
+      {
+        "name": "萬芳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18107,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆轉公車，或捷運文湖線【萬芳醫院站】步行約 8 分鐘。"
+      },
+      {
+        "name": "大理高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18379,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】步行約 6 分鐘（艋舺大道）。"
+      },
+      {
+        "name": "光復高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18572,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板新站】步行約 10 分鐘，或搭環狀線至板橋轉公車 265 直達光復高中（光復路一段）。"
+      },
+      {
+        "name": "士林高商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 16.6,
+        "rank_accum": 19218,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】或【劍潭站】轉公車紅30至士林高商。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "松山家商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 15.6,
+        "rank_accum": 21392,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【永春站】4號出口搭乘公車 299/279 直達松山家商。"
+      },
+      {
+        "name": "林口高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 20814,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從頭前國中（思源中原路口）搭乘快速公車 920 或 918 直達林口高中校門口（行經國道一號特快），不需換車！"
+      },
+      {
+        "name": "清水高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 21757,
+        "transit_time": "約 38~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】於新北板橋公車站轉搭公車 657 或 245 直達清水高中（金城路）。"
+      },
+      {
+        "name": "安康高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 22060,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【十四張站】轉安坑輕軌至【景文科大站/安康站】步行或轉搭公車。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      },
+      {
+        "name": "復興高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 13.6,
+        "rank_accum": 24455,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【新北投站】轉乘公車 216/218 至復興高中。"
+      },
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "04",
+    "name": "麥藝霖",
+    "gender": "男",
+    "total_pts": 6,
+    "pattern": "1B,4C",
+    "rank_class": 25,
+    "rank_school": 358,
+    "rank_district": 54114,
+    "rank_gender": 27452,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 13,
+        "max": 42,
+        "level": "C",
+        "points": 1,
+        "next_diff": 4,
+        "desc": "待加強(C)！差 4 題即可脫 C 進入基礎 B 級（積分+1）！建議掌握基礎成語、字詞辨析與白話短文閱讀。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 30.03,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 8.4,
+        "desc": "待加強(C)！差 8.4 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 10,
+        "r_lvl": "待加強",
+        "l_correct": 12,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 10 題(待加強)、聽力答對 12 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 33.1,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 5.9,
+        "desc": "待加強(C)！差 5.9 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 9,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 9 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 19,
+        "max": 54,
+        "level": "C",
+        "points": 1,
+        "next_diff": 1,
+        "desc": "待加強(C)！差 1 題即可脫 C 進入 B（積分+1）！優先熟讀課本基礎大單元與圖表基本概念。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 17,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 2,
+        "desc": "待加強(C)！差 2 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【國文、英文、數學、社會、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：社會（僅差 1 題即可晉升 A）；自然（僅差 2 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "05",
+    "name": "郭宸良",
+    "gender": "男",
+    "total_pts": 19,
+    "pattern": "4B++,1B+",
+    "rank_class": 6,
+    "rank_school": 60,
+    "rank_district": 22357,
+    "rank_gender": 11570,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 34,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 2,
+        "desc": "基礎精熟邊緣！差 2 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 79.49,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 2.81,
+        "desc": "基礎中段！差 2.81 分達 B++，核心單字 1200 與常考文法時態務必完全掌握。",
+        "r_correct": 33,
+        "r_lvl": "基礎",
+        "l_correct": 19,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 33 題(基礎)、聽力答對 19 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 67.8,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 0.9,
+        "desc": "基礎中段！差 0.9 分晉級 B++，代數方程式、函數與幾何基本定理需多加題型演練。",
+        "choice_correct": 17,
+        "q1_score": 2,
+        "q2_score": 2,
+        "non_choice_total": 4,
+        "non_choice_note": "選擇題答對 17 題，非選第1題得 2 分、第2題得 2 分（非選總計 4/6 分）。 非選擇題書寫步驟條理清晰，表現良好！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 43,
+        "max": 54,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 5,
+        "desc": "基礎高分！差 5 題跨入 A 等級（積分+1），多加強公民專有名詞與時事圖表整合題型。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 37,
+        "max": 50,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 6,
+        "desc": "基礎高分！差 6 題即可衝上 A 等級（積分+1），加強理化公式應用與生物實驗操作題。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【英文、數學】（等級為 B+），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 2 題即可晉升 A）；英文（僅差 2.81 分即可晉級下一標示，單字聽力加強見效快）；數學（僅差 0.9 分即可晉級下一標示，非選加強最快），只要掌握臨門一腳，總積分即可直接提升！"
+    ],
+    "dream_schools": [
+      {
+        "name": "新莊高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 12868,
+        "transit_time": "約 12~18 分鐘",
+        "transit_route": "【新莊在地首選！】從頭前國中步行至中原路/思源路口搭乘公車 652、813、918 等直達新莊高中（中平路），騎乘 YouBike 僅約 10 分鐘，通勤極其輕鬆！"
+      },
+      {
+        "name": "永平高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 13191,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【頂溪站】轉搭公車橘3/綠2至永平高中。"
+      },
+      {
+        "name": "南港高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 13497,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【昆陽站】步行約 6 分鐘。"
+      },
+      {
+        "name": "華江高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14007,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】2號出口步行約 8 分鐘抵達西藏路校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "大安高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 19.6,
+        "rank_accum": 15445,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【忠孝新生站】轉淡水信義線至【大安站】2號出口對面即達，高職第一志願！"
+      },
+      {
+        "name": "永春高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 15950,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【永春站】4號出口轉公車 299/279/綠1 直達松山家商/永春高中。"
+      },
+      {
+        "name": "丹鳳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 16217,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "【新莊在地近距首選！】從【捷運幸福站】搭環狀線至【頭前庄站】同月台轉中和新蘆線直達【迴龍站】或【丹鳳站】1號出口步行約 6 分鐘，交通非常便捷！"
+      },
+      {
+        "name": "華僑高中",
+        "gender": "男女兼收",
+        "type": "公立國立高中",
+        "min_score": 19.6,
+        "rank_accum": 16566,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭公車 701、264、793 約 7 分鐘至華僑高中站（大觀路一段），非常近！"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "萬芳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18107,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆轉公車，或捷運文湖線【萬芳醫院站】步行約 8 分鐘。"
+      },
+      {
+        "name": "大理高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18379,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】步行約 6 分鐘（艋舺大道）。"
+      },
+      {
+        "name": "光復高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18572,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板新站】步行約 10 分鐘，或搭環狀線至板橋轉公車 265 直達光復高中（光復路一段）。"
+      },
+      {
+        "name": "士林高商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 16.6,
+        "rank_accum": 19218,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】或【劍潭站】轉公車紅30至士林高商。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "06",
+    "name": "劉仲軒",
+    "gender": "男",
+    "total_pts": 6,
+    "pattern": "1B,4C",
+    "rank_class": 27,
+    "rank_school": 368,
+    "rank_district": 54802,
+    "rank_gender": 27879,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 17,
+        "max": 42,
+        "level": "B",
+        "points": 2,
+        "next_diff": 11,
+        "desc": "基礎級！差 11 題晉級 B+，核心字詞語意與白話文閱讀需多做題庫練習以提升正確率。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 21.51,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 16.92,
+        "desc": "待加強(C)！差 16.92 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 9,
+        "r_lvl": "待加強",
+        "l_correct": 5,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 9 題(待加強)、聽力答對 5 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 22.9,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 16.1,
+        "desc": "待加強(C)！差 16.1 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 6,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 6 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 32,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 2,
+        "desc": "基礎起步！差 2 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 10,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 9,
+        "desc": "待加強(C)！差 9 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【英文、數學、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：社會（僅差 2 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "07",
+    "name": "吳孟駿",
+    "gender": "男",
+    "total_pts": 21,
+    "pattern": "1A++,1A,1B++,1B+,1B",
+    "rank_class": 5,
+    "rank_school": 47,
+    "rank_district": 19406,
+    "rank_gender": 10154,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 32,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 4,
+        "desc": "基礎精熟邊緣！差 4 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 71.14,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 11.16,
+        "desc": "基礎中段！差 11.16 分達 B++，核心單字 1200 與常考文法時態務必完全掌握。",
+        "r_correct": 28,
+        "r_lvl": "基礎",
+        "l_correct": 20,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 28 題(基礎)、聽力答對 20 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 75.5,
+        "max": 100,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 1.6,
+        "desc": "基礎高分！差 1.6 分即可攻入 A 等級（積分+1），非選題多寫完整步驟即可達標！",
+        "choice_correct": 20,
+        "q1_score": 2,
+        "q2_score": 1,
+        "non_choice_total": 3,
+        "non_choice_note": "選擇題答對 20 題，非選第1題得 2 分、第2題得 1 分（非選總計 3/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 50,
+        "max": 54,
+        "level": "A",
+        "points": 5,
+        "next_diff": 1,
+        "desc": "精熟級！差 1 題晉級 A+，加強歷史年代脈絡與地理氣候圖表整合。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 42,
+        "max": 50,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 1,
+        "desc": "基礎高分！差 1 題即可衝上 A 等級（積分+1），加強理化公式應用與生物實驗操作題。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【英文】（等級為 B+），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：數學（僅差 1.6 分即可晉級下一標示，非選加強最快）；社會（僅差 1 題即可晉升 A）；自然（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！"
+    ],
+    "dream_schools": [
+      {
+        "name": "百齡高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.8,
+        "rank_accum": 9611,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【劍潭站】1號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "中正高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.6,
+        "rank_accum": 10195,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【明德站】1號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "中和高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 22.6,
+        "rank_accum": 11387,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【中和站】或【橋和站】轉搭公車藍18/橘5或步行約12分鐘抵達中和高中（連城路）。"
+      },
+      {
+        "name": "陽明高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 22.6,
+        "rank_accum": 11795,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】轉公車或步行約 12 分鐘抵達中正路校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "新莊高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 12868,
+        "transit_time": "約 12~18 分鐘",
+        "transit_route": "【新莊在地首選！】從頭前國中步行至中原路/思源路口搭乘公車 652、813、918 等直達新莊高中（中平路），騎乘 YouBike 僅約 10 分鐘，通勤極其輕鬆！"
+      },
+      {
+        "name": "永平高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 13191,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【頂溪站】轉搭公車橘3/綠2至永平高中。"
+      },
+      {
+        "name": "南港高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 13497,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【昆陽站】步行約 6 分鐘。"
+      },
+      {
+        "name": "華江高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14007,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】2號出口步行約 8 分鐘抵達西藏路校門。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "大安高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 19.6,
+        "rank_accum": 15445,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【忠孝新生站】轉淡水信義線至【大安站】2號出口對面即達，高職第一志願！"
+      },
+      {
+        "name": "永春高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 15950,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【永春站】4號出口轉公車 299/279/綠1 直達松山家商/永春高中。"
+      },
+      {
+        "name": "丹鳳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 16217,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "【新莊在地近距首選！】從【捷運幸福站】搭環狀線至【頭前庄站】同月台轉中和新蘆線直達【迴龍站】或【丹鳳站】1號出口步行約 6 分鐘，交通非常便捷！"
+      },
+      {
+        "name": "華僑高中",
+        "gender": "男女兼收",
+        "type": "公立國立高中",
+        "min_score": 19.6,
+        "rank_accum": 16566,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭公車 701、264、793 約 7 分鐘至華僑高中站（大觀路一段），非常近！"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "08",
+    "name": "吳承翰",
+    "gender": "男",
+    "total_pts": 10,
+    "pattern": "5B",
+    "rank_class": 19,
+    "rank_school": 209,
+    "rank_district": 42825,
+    "rank_gender": 21791,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 28,
+        "max": 42,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 4,
+        "desc": "穩健基礎級！差 4 題可晉級 B++，需掌握閱讀題幹主旨與文言文基本句型。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 74.73,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 7.57,
+        "desc": "基礎中段！差 7.57 分達 B++，核心單字 1200 與常考文法時態務必完全掌握。",
+        "r_correct": 33,
+        "r_lvl": "基礎",
+        "l_correct": 14,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 33 題(基礎)、聽力答對 14 題(待加強)。 閱讀已有基礎，但聽力失分較重，每天聽 15 分鐘英聽可快速提分！"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 43.3,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 16.1,
+        "desc": "基礎起步！差 16.1 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 12,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 12 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 28,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 6,
+        "desc": "基礎起步！差 6 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 18,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 1,
+        "desc": "待加強(C)！差 1 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：自然（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！",
+      "英語聽力突破點：英閱已達基礎，但英聽為待加強。英聽題目直觀，每天訓練 15 分鐘常考情境對話，即可大幅拉高加權分數！"
+    ],
+    "dream_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "09",
+    "name": "楊家宥",
+    "gender": "男",
+    "total_pts": 9,
+    "pattern": "4B,1C",
+    "rank_class": 23,
+    "rank_school": 251,
+    "rank_district": 46728,
+    "rank_gender": 23763,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 29,
+        "max": 42,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 3,
+        "desc": "穩健基礎級！差 3 題可晉級 B++，需掌握閱讀題幹主旨與文言文基本句型。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 62.66,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 6.62,
+        "desc": "基礎起步！差 6.62 分升 B+，加強高頻核心基礎單字，聽力多訓練日常對話題。",
+        "r_correct": 26,
+        "r_lvl": "基礎",
+        "l_correct": 15,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 26 題(基礎)、聽力答對 15 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 32.2,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 6.8,
+        "desc": "待加強(C)！差 6.8 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 8,
+        "q1_score": 1,
+        "q2_score": 1,
+        "non_choice_total": 2,
+        "non_choice_note": "選擇題答對 8 題，非選第1題得 1 分、第2題得 1 分（非選總計 2/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 33,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 1,
+        "desc": "基礎起步！差 1 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 18,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 1,
+        "desc": "待加強(C)！差 1 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【數學、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：國文（僅差 3 題即可晉升 B++）；社會（僅差 1 題即可晉升 B+）；自然（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 2/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      },
+      {
+        "name": "三重商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 26576,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "【鄰近優質高職！】從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【三和國中站】步行約 8 分鐘，或搭乘公車 299 轉乘，非常便利！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      },
+      {
+        "name": "鶯歌工商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 9.6,
+        "rank_accum": 29040,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭台鐵火車至【鶯歌火車站】，搭乘校車或公車約 5 分鐘抵達鶯歌工商（中正三路）。"
+      },
+      {
+        "name": "基隆商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 9.6,
+        "rank_accum": 29475,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "從捷運幸福站至板橋或台北車站轉搭台鐵火車至【七堵火車站】，步行約 7 分鐘抵達東新街校門。"
+      },
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "10",
+    "name": "王陽晟",
+    "gender": "男",
+    "total_pts": 10,
+    "pattern": "1B++,2B,2C",
+    "rank_class": 18,
+    "rank_school": 206,
+    "rank_district": 42666,
+    "rank_gender": 21712,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 24,
+        "max": 42,
+        "level": "B",
+        "points": 2,
+        "next_diff": 4,
+        "desc": "基礎級！差 4 題晉級 B+，核心字詞語意與白話文閱讀需多做題庫練習以提升正確率。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 86.98,
+        "max": 100,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 3.72,
+        "desc": "基礎高分邊緣！差 3.72 分即可衝進精熟 A 等級（積分+1）！多讀長篇題組，提高閱讀速度。",
+        "r_correct": 36,
+        "r_lvl": "基礎",
+        "l_correct": 21,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 36 題(基礎)、聽力答對 21 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 36.5,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 2.5,
+        "desc": "待加強(C)！差 2.5 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 10,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 10 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 19,
+        "max": 54,
+        "level": "C",
+        "points": 1,
+        "next_diff": 1,
+        "desc": "待加強(C)！差 1 題即可脫 C 進入 B（積分+1）！優先熟讀課本基礎大單元與圖表基本概念。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 15,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 4,
+        "desc": "待加強(C)！差 4 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【數學、社會、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：英文（僅差 3.72 分即可晉級下一標示，單字聽力加強見效快）；數學（僅差 2.5 分即可晉級下一標示，非選加強最快）；社會（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "11",
+    "name": "彭貝宇",
+    "gender": "男",
+    "total_pts": 13,
+    "pattern": "1B++,1B+,3B",
+    "rank_class": 12,
+    "rank_school": 131,
+    "rank_district": 34416,
+    "rank_gender": 17664,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 34,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 2,
+        "desc": "基礎精熟邊緣！差 2 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 57.98,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 11.3,
+        "desc": "基礎起步！差 11.3 分升 B+，加強高頻核心基礎單字，聽力多訓練日常對話題。",
+        "r_correct": 24,
+        "r_lvl": "基礎",
+        "l_correct": 14,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 24 題(基礎)、聽力答對 14 題(待加強)。 閱讀已有基礎，但聽力失分較重，每天聽 15 分鐘英聽可快速提分！"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 50.8,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 8.6,
+        "desc": "基礎起步！差 8.6 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 12,
+        "q1_score": 3,
+        "q2_score": 1,
+        "non_choice_total": 4,
+        "non_choice_note": "選擇題答對 12 題，非選第1題得 3 分、第2題得 1 分（非選總計 4/6 分）。 非選擇題書寫步驟條理清晰，表現良好！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 31,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 3,
+        "desc": "基礎起步！差 3 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 28,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 1,
+        "desc": "基礎起步！差 1 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【英文、數學、社會、自然】（等級為 B），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 2 題即可晉升 A）；社會（僅差 3 題即可晉升 B+）；自然（僅差 1 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！",
+      "英語聽力突破點：英閱已達基礎，但英聽為待加強。英聽題目直觀，每天訓練 15 分鐘常考情境對話，即可大幅拉高加權分數！"
+    ],
+    "dream_schools": [
+      {
+        "name": "松山家商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 15.6,
+        "rank_accum": 21392,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【永春站】4號出口搭乘公車 299/279 直達松山家商。"
+      },
+      {
+        "name": "林口高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 20814,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從頭前國中（思源中原路口）搭乘快速公車 920 或 918 直達林口高中校門口（行經國道一號特快），不需換車！"
+      },
+      {
+        "name": "清水高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 21757,
+        "transit_time": "約 38~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】於新北板橋公車站轉搭公車 657 或 245 直達清水高中（金城路）。"
+      },
+      {
+        "name": "安康高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 22060,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【十四張站】轉安坑輕軌至【景文科大站/安康站】步行或轉搭公車。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      },
+      {
+        "name": "復興高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 13.6,
+        "rank_accum": 24455,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【新北投站】轉乘公車 216/218 至復興高中。"
+      },
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      },
+      {
+        "name": "三重商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 26576,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "【鄰近優質高職！】從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【三和國中站】步行約 8 分鐘，或搭乘公車 299 轉乘，非常便利！"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "12",
+    "name": "宋昱翰",
+    "gender": "男",
+    "total_pts": 8,
+    "pattern": "3B,2C",
+    "rank_class": 24,
+    "rank_school": 287,
+    "rank_district": 49393,
+    "rank_gender": 25032,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 23,
+        "max": 42,
+        "level": "B",
+        "points": 2,
+        "next_diff": 5,
+        "desc": "基礎級！差 5 題晉級 B+，核心字詞語意與白話文閱讀需多做題庫練習以提升正確率。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 29.04,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 9.39,
+        "desc": "待加強(C)！差 9.39 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 11,
+        "r_lvl": "待加強",
+        "l_correct": 9,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 11 題(待加強)、聽力答對 9 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 32.2,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 6.8,
+        "desc": "待加強(C)！差 6.8 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 8,
+        "q1_score": 2,
+        "q2_score": 0,
+        "non_choice_total": 2,
+        "non_choice_note": "選擇題答對 8 題，非選第1題得 2 分、第2題得 0 分（非選總計 2/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 25,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 9,
+        "desc": "基礎起步！差 9 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 18,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 1,
+        "desc": "待加強(C)！差 1 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【英文、數學、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：自然（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 2/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "13",
+    "name": "劉邑璽",
+    "gender": "男",
+    "total_pts": 12,
+    "pattern": "3B+,1B,1C",
+    "rank_class": 15,
+    "rank_school": 154,
+    "rank_district": 36966,
+    "rank_gender": 18908,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 32,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 4,
+        "desc": "基礎精熟邊緣！差 4 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 19.73,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 18.7,
+        "desc": "待加強(C)！差 18.7 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 6,
+        "r_lvl": "待加強",
+        "l_correct": 9,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 6 題(待加強)、聽力答對 9 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 53.5,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 5.9,
+        "desc": "基礎起步！差 5.9 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 15,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 15 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 34,
+        "max": 54,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 7,
+        "desc": "基礎中段！差 7 題晉級 B++，地理地圖判讀與臺灣史/世界史因果關係需加強釐清。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 22,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 7,
+        "desc": "基礎起步！差 7 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【英文】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "松山工農",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 14.6,
+        "rank_accum": 23109,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【市政府站】3號出口步行約 5 分鐘抵達松山工農（忠孝東路五段）。"
+      },
+      {
+        "name": "樹林高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 14.6,
+        "rank_accum": 22463,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭台鐵火車一站至【樹林火車站】，步行約 8 分鐘或轉乘公車 701/843 抵達樹林高中。"
+      },
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "14",
+    "name": "周莛恩",
+    "gender": "男",
+    "total_pts": 5,
+    "pattern": "5C",
+    "rank_class": 30,
+    "rank_school": 389,
+    "rank_district": 55725,
+    "rank_gender": 28458,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 9,
+        "max": 42,
+        "level": "C",
+        "points": 1,
+        "next_diff": 8,
+        "desc": "待加強(C)！差 8 題即可脫 C 進入基礎 B 級（積分+1）！建議掌握基礎成語、字詞辨析與白話短文閱讀。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 26.22,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 12.21,
+        "desc": "待加強(C)！差 12.21 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 10,
+        "r_lvl": "待加強",
+        "l_correct": 8,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 10 題(待加強)、聽力答對 8 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 22.9,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 16.1,
+        "desc": "待加強(C)！差 16.1 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 6,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 6 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 19,
+        "max": 54,
+        "level": "C",
+        "points": 1,
+        "next_diff": 1,
+        "desc": "待加強(C)！差 1 題即可脫 C 進入 B（積分+1）！優先熟讀課本基礎大單元與圖表基本概念。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 17,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 2,
+        "desc": "待加強(C)！差 2 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【國文、英文、數學、社會、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：社會（僅差 1 題即可晉升 A）；自然（僅差 2 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "15",
+    "name": "蘇子睿",
+    "gender": "男",
+    "total_pts": 22,
+    "pattern": "1A++,1A,1B++,2B+",
+    "rank_class": 3,
+    "rank_school": 38,
+    "rank_district": 17319,
+    "rank_gender": 9091,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 32,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 4,
+        "desc": "基礎精熟邊緣！差 4 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 81.31,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 0.99,
+        "desc": "基礎中段！差 0.99 分達 B++，核心單字 1200 與常考文法時態務必完全掌握。",
+        "r_correct": 35,
+        "r_lvl": "基礎",
+        "l_correct": 17,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 35 題(基礎)、聽力答對 17 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 93.2,
+        "max": 100,
+        "level": "A++",
+        "points": 7,
+        "next_diff": 0.0,
+        "desc": "頂尖精熟！邏輯推理與解題步驟極度嚴謹，數學實力頂尖。",
+        "choice_correct": 23,
+        "q1_score": 3,
+        "q2_score": 3,
+        "non_choice_total": 6,
+        "non_choice_note": "選擇題答對 23 題，非選第1題得 3 分、第2題得 3 分（非選總計 6/6 分）。 非選擇題書寫步驟條理清晰，表現良好！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 39,
+        "max": 54,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 2,
+        "desc": "基礎中段！差 2 題晉級 B++，地理地圖判讀與臺灣史/世界史因果關係需加強釐清。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 42,
+        "max": 50,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 1,
+        "desc": "基礎高分！差 1 題即可衝上 A 等級（積分+1），加強理化公式應用與生物實驗操作題。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【英文、社會】（等級為 B+），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：英文（僅差 0.99 分即可晉級下一標示，單字聽力加強見效快）；社會（僅差 2 題即可晉升 B++）；自然（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！"
+    ],
+    "dream_schools": [
+      {
+        "name": "北大高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 24.8,
+        "rank_accum": 8761,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】於新北板橋公車站轉搭 932 快速公車經國道三號直達【台北大學/北大高中站】。"
+      },
+      {
+        "name": "內湖高中(男)",
+        "gender": "男",
+        "type": "公立普通高中",
+        "min_score": 24.8,
+        "rank_accum": 9025,
+        "transit_time": "約 55~60 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【文德站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "百齡高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.8,
+        "rank_accum": 9611,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【劍潭站】1號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "中正高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.6,
+        "rank_accum": 10195,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【明德站】1號出口步行約 6 分鐘。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "中和高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 22.6,
+        "rank_accum": 11387,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【中和站】或【橋和站】轉搭公車藍18/橘5或步行約12分鐘抵達中和高中（連城路）。"
+      },
+      {
+        "name": "陽明高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 22.6,
+        "rank_accum": 11795,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】轉公車或步行約 12 分鐘抵達中正路校門。"
+      },
+      {
+        "name": "南湖高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 22.6,
+        "rank_accum": 12271,
+        "transit_time": "約 55~60 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉文湖線一站至【東湖站】2號出口直達校門。"
+      },
+      {
+        "name": "新莊高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 12868,
+        "transit_time": "約 12~18 分鐘",
+        "transit_route": "【新莊在地首選！】從頭前國中步行至中原路/思源路口搭乘公車 652、813、918 等直達新莊高中（中平路），騎乘 YouBike 僅約 10 分鐘，通勤極其輕鬆！"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "華江高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14007,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】2號出口步行約 8 分鐘抵達西藏路校門。"
+      },
+      {
+        "name": "新北高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14631,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從頭前國中搭公車 982 至徐匯中學轉車，或搭環狀線至【新埔民生】轉公車 813/926，或搭中和新蘆線至【徐匯中學站】轉公車約 5 分鐘抵達三信路校門。"
+      },
+      {
+        "name": "大安高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 19.6,
+        "rank_accum": 15445,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【忠孝新生站】轉淡水信義線至【大安站】2號出口對面即達，高職第一志願！"
+      },
+      {
+        "name": "永春高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 15950,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【永春站】4號出口轉公車 299/279/綠1 直達松山家商/永春高中。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "16",
+    "name": "丘天玥",
+    "gender": "女",
+    "total_pts": 12,
+    "pattern": "2B+,3B",
+    "rank_class": 16,
+    "rank_school": 155,
+    "rank_district": 37046,
+    "rank_gender": 18105,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 30,
+        "max": 42,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 2,
+        "desc": "穩健基礎級！差 2 題可晉級 B++，需掌握閱讀題幹主旨與文言文基本句型。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 75.77,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 6.53,
+        "desc": "基礎中段！差 6.53 分達 B++，核心單字 1200 與常考文法時態務必完全掌握。",
+        "r_correct": 31,
+        "r_lvl": "基礎",
+        "l_correct": 19,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 31 題(基礎)、聽力答對 19 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 34.0,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 5.0,
+        "desc": "待加強(C)！差 5.0 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 10,
+        "q1_score": 0,
+        "q2_score": 0,
+        "non_choice_total": 0,
+        "non_choice_note": "選擇題答對 10 題，非選第1題得 0 分、第2題得 0 分（非選總計 0/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 31,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 3,
+        "desc": "基礎起步！差 3 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 23,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 6,
+        "desc": "基礎起步！差 6 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【數學】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：國文（僅差 2 題即可晉升 B++）；數學（僅差 5.0 分即可晉級下一標示，非選加強最快）；社會（僅差 3 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 0/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "松山工農",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 14.6,
+        "rank_accum": 23109,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【市政府站】3號出口步行約 5 分鐘抵達松山工農（忠孝東路五段）。"
+      },
+      {
+        "name": "樹林高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 14.6,
+        "rank_accum": 22463,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭台鐵火車一站至【樹林火車站】，步行約 8 分鐘或轉乘公車 701/843 抵達樹林高中。"
+      },
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "17",
+    "name": "林盈妡",
+    "gender": "女",
+    "total_pts": 26,
+    "pattern": "1A++,1A+,1A,2B++",
+    "rank_class": 2,
+    "rank_school": 25,
+    "rank_district": 10667,
+    "rank_gender": 5016,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 34,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 2,
+        "desc": "基礎精熟邊緣！差 2 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 85.98,
+        "max": 100,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 4.72,
+        "desc": "基礎高分邊緣！差 4.72 分即可衝進精熟 A 等級（積分+1）！多讀長篇題組，提高閱讀速度。",
+        "r_correct": 37,
+        "r_lvl": "基礎",
+        "l_correct": 18,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 37 題(基礎)、聽力答對 18 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 88.2,
+        "max": 100,
+        "level": "A+",
+        "points": 6,
+        "next_diff": 3.4,
+        "desc": "高分精熟！差 3.4 分晉級 A++，加強幾何證明與非選題步驟完整度。",
+        "choice_correct": 23,
+        "q1_score": 3,
+        "q2_score": 1,
+        "non_choice_total": 4,
+        "non_choice_note": "選擇題答對 23 題，非選第1題得 3 分、第2題得 1 分（非選總計 4/6 分）。 非選擇題書寫步驟條理清晰，表現良好！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 51,
+        "max": 54,
+        "level": "A+",
+        "points": 6,
+        "next_diff": 1,
+        "desc": "高分精熟！差 1 題晉級 A++，細部圖表判讀與法律經濟跨科題稍加注意。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 45,
+        "max": 50,
+        "level": "A",
+        "points": 5,
+        "next_diff": 1,
+        "desc": "精熟級！差 1 題升至 A+，加強理化電學/力學計算及地科圖表整合題。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【國文、英文】（等級為 B++），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 2 題即可晉升 A）；英文（僅差 4.72 分即可晉級下一標示，單字聽力加強見效快）；數學（僅差 3.4 分即可晉級下一標示，非選加強最快）；社會（僅差 1 題即可晉升 A）；自然（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！"
+    ],
+    "dream_schools": [
+      {
+        "name": "政大附中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 28.8,
+        "rank_accum": 5379,
+        "transit_time": "約 60~65 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【大坪林站】轉公車棕7/綠1至政大附中站，或捷運至動物園站轉乘小10/棕11公車。"
+      },
+      {
+        "name": "板橋高中(女)",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 28.6,
+        "rank_accum": 6047,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "從【捷運幸福站】搭乘環狀線直達【板橋站】（僅需約 10 分鐘），從 3 號出口步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "成淵高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 27.8,
+        "rank_accum": 6421,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線直達【民權西路站】（中途不需轉車），出站步行約 3 分鐘即可抵達，非常順路！"
+      },
+      {
+        "name": "麗山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 27.6,
+        "rank_accum": 6711,
+        "transit_time": "約 55~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【忠孝復興】轉文湖線至【港墘站】步行約 8 分鐘。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "海山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 26.8,
+        "rank_accum": 7016,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板新站】步行約 8 分鐘，或至【板橋站】轉搭公車 667/307 至海山高中站。"
+      },
+      {
+        "name": "大直高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 26.8,
+        "rank_accum": 7351,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【松江南京】轉綠線至【南京復興】轉文湖線至【大直站】步行約 7 分鐘。"
+      },
+      {
+        "name": "和平高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 26.6,
+        "rank_accum": 7759,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【忠孝復興】轉文湖線至【科技大樓站】步行約 8 分鐘。"
+      },
+      {
+        "name": "西松高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 25.6,
+        "rank_accum": 8082,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【松江南京】轉綠線至【南京三民站】步行約 10 分鐘或轉乘公車。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "內湖高中(女)",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 24.6,
+        "rank_accum": 9339,
+        "transit_time": "約 55~60 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【文德站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "百齡高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.8,
+        "rank_accum": 9611,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【劍潭站】1號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "中正高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.6,
+        "rank_accum": 10195,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【明德站】1號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "景美女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 22.8,
+        "rank_accum": 10802,
+        "transit_time": "約 55~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【大坪林站】轉公車 綠1/綠2/棕7 至景美女中站下車即達。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "18",
+    "name": "詹子晴",
+    "gender": "女",
+    "total_pts": 21,
+    "pattern": "1A+,1A,1B++,2B+",
+    "rank_class": 4,
+    "rank_school": 45,
+    "rank_district": 19103,
+    "rank_gender": 9125,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 35,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 1,
+        "desc": "基礎精熟邊緣！差 1 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 97.19,
+        "max": 100,
+        "level": "A+",
+        "points": 6,
+        "next_diff": 0.95,
+        "desc": "高分精熟！差 0.95 分達 A++，長篇克漏字與精細語意推論稍加留意。",
+        "r_correct": 42,
+        "r_lvl": "精熟",
+        "l_correct": 20,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 42 題(精熟)、聽力答對 20 題(基礎)。 閱讀能力優異達精熟，聽力若能提升至精熟將直接跨入 A++！"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 56.9,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 2.5,
+        "desc": "基礎起步！差 2.5 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 16,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 16 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 47,
+        "max": 54,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 1,
+        "desc": "基礎高分！差 1 題跨入 A 等級（積分+1），多加強公民專有名詞與時事圖表整合題型。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 33,
+        "max": 50,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 3,
+        "desc": "基礎中段！差 3 題升至 B++，理化基本公式運算與地科天文地質需加強記憶與觀念連結。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【數學】（等級為 B），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 1 題即可晉升 A）；英文（僅差 0.95 分即可晉級下一標示，單字聽力加強見效快）；數學（僅差 2.5 分即可晉級下一標示，非選加強最快）；社會（僅差 1 題即可晉升 A）；自然（僅差 3 題即可晉升 B++），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "百齡高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.8,
+        "rank_accum": 9611,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【劍潭站】1號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "中正高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 23.6,
+        "rank_accum": 10195,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【民權西路站】轉淡水信義線至【明德站】1號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "景美女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 22.8,
+        "rank_accum": 10802,
+        "transit_time": "約 55~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【大坪林站】轉公車 綠1/綠2/棕7 至景美女中站下車即達。"
+      },
+      {
+        "name": "中和高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 22.6,
+        "rank_accum": 11387,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【中和站】或【橋和站】轉搭公車藍18/橘5或步行約12分鐘抵達中和高中（連城路）。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "新莊高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 12868,
+        "transit_time": "約 12~18 分鐘",
+        "transit_route": "【新莊在地首選！】從頭前國中步行至中原路/思源路口搭乘公車 652、813、918 等直達新莊高中（中平路），騎乘 YouBike 僅約 10 分鐘，通勤極其輕鬆！"
+      },
+      {
+        "name": "永平高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 13191,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【頂溪站】轉搭公車橘3/綠2至永平高中。"
+      },
+      {
+        "name": "南港高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 21.6,
+        "rank_accum": 13497,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【昆陽站】步行約 6 分鐘。"
+      },
+      {
+        "name": "華江高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14007,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】2號出口步行約 8 分鐘抵達西藏路校門。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "大安高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 19.6,
+        "rank_accum": 15445,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【忠孝新生站】轉淡水信義線至【大安站】2號出口對面即達，高職第一志願！"
+      },
+      {
+        "name": "永春高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 15950,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【永春站】4號出口轉公車 299/279/綠1 直達松山家商/永春高中。"
+      },
+      {
+        "name": "丹鳳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 16217,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "【新莊在地近距首選！】從【捷運幸福站】搭環狀線至【頭前庄站】同月台轉中和新蘆線直達【迴龍站】或【丹鳳站】1號出口步行約 6 分鐘，交通非常便捷！"
+      },
+      {
+        "name": "華僑高中",
+        "gender": "男女兼收",
+        "type": "公立國立高中",
+        "min_score": 19.6,
+        "rank_accum": 16566,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭公車 701、264、793 約 7 分鐘至華僑高中站（大觀路一段），非常近！"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "19",
+    "name": "謝沛琪",
+    "gender": "女",
+    "total_pts": 6,
+    "pattern": "1B,4C",
+    "rank_class": 27,
+    "rank_school": 368,
+    "rank_district": 54802,
+    "rank_gender": 26924,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 10,
+        "max": 42,
+        "level": "C",
+        "points": 1,
+        "next_diff": 7,
+        "desc": "待加強(C)！差 7 題即可脫 C 進入基礎 B 級（積分+1）！建議掌握基礎成語、字詞辨析與白話短文閱讀。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 25.27,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 13.16,
+        "desc": "待加強(C)！差 13.16 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 10,
+        "r_lvl": "待加強",
+        "l_correct": 7,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 10 題(待加強)、聽力答對 7 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 27.2,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 11.8,
+        "desc": "待加強(C)！差 11.8 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 8,
+        "q1_score": 0,
+        "q2_score": 0,
+        "non_choice_total": 0,
+        "non_choice_note": "選擇題答對 8 題，非選第1題得 0 分、第2題得 0 分（非選總計 0/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 22,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 12,
+        "desc": "基礎起步！差 12 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 10,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 9,
+        "desc": "待加強(C)！差 9 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【國文、英文、數學、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "數學非選突破點：本次非選僅得 0/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "20",
+    "name": "曾沛繡",
+    "gender": "女",
+    "total_pts": 15,
+    "pattern": "2B++,1B+,2B",
+    "rank_class": 11,
+    "rank_school": 104,
+    "rank_district": 30136,
+    "rank_gender": 14639,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 36,
+        "max": 42,
+        "level": "A",
+        "points": 5,
+        "next_diff": 3,
+        "desc": "精熟級表現！差 3 題晉級 A+，加強長篇題組與文言文對比題型。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 86.93,
+        "max": 100,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 3.77,
+        "desc": "基礎高分邊緣！差 3.77 分即可衝進精熟 A 等級（積分+1）！多讀長篇題組，提高閱讀速度。",
+        "r_correct": 37,
+        "r_lvl": "基礎",
+        "l_correct": 19,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 37 題(基礎)、聽力答對 19 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 39.0,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 20.4,
+        "desc": "基礎起步！差 20.4 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 10,
+        "q1_score": 2,
+        "q2_score": 0,
+        "non_choice_total": 2,
+        "non_choice_note": "選擇題答對 10 題，非選第1題得 2 分、第2題得 0 分（非選總計 2/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 37,
+        "max": 54,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 4,
+        "desc": "基礎中段！差 4 題晉級 B++，地理地圖判讀與臺灣史/世界史因果關係需加強釐清。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 19,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 10,
+        "desc": "基礎起步！差 10 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【數學、自然】（等級為 B），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 3 題即可晉升 A）；英文（僅差 3.77 分即可晉級下一標示，單字聽力加強見效快），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 2/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "萬芳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18107,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆轉公車，或捷運文湖線【萬芳醫院站】步行約 8 分鐘。"
+      },
+      {
+        "name": "大理高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18379,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】步行約 6 分鐘（艋舺大道）。"
+      },
+      {
+        "name": "光復高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18572,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板新站】步行約 10 分鐘，或搭環狀線至板橋轉公車 265 直達光復高中（光復路一段）。"
+      },
+      {
+        "name": "士林高商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 16.6,
+        "rank_accum": 19218,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】或【劍潭站】轉公車紅30至士林高商。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "松山家商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 15.6,
+        "rank_accum": 21392,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【永春站】4號出口搭乘公車 299/279 直達松山家商。"
+      },
+      {
+        "name": "林口高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 20814,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從頭前國中（思源中原路口）搭乘快速公車 920 或 918 直達林口高中校門口（行經國道一號特快），不需換車！"
+      },
+      {
+        "name": "清水高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 21757,
+        "transit_time": "約 38~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】於新北板橋公車站轉搭公車 657 或 245 直達清水高中（金城路）。"
+      },
+      {
+        "name": "安康高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 15.6,
+        "rank_accum": 22060,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【十四張站】轉安坑輕軌至【景文科大站/安康站】步行或轉搭公車。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      },
+      {
+        "name": "復興高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 13.6,
+        "rank_accum": 24455,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【新北投站】轉乘公車 216/218 至復興高中。"
+      },
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "21",
+    "name": "賴律穎",
+    "gender": "女",
+    "total_pts": 32,
+    "pattern": "2A++,3A+",
+    "rank_class": 1,
+    "rank_school": 2,
+    "rank_district": 3202,
+    "rank_gender": 1484,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 39,
+        "max": 42,
+        "level": "A+",
+        "points": 6,
+        "next_diff": 1,
+        "desc": "精熟高分段！僅差 1 題可晉級 A++，多注意字形字音或細節文意推論。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 98.1,
+        "max": 100,
+        "level": "A+",
+        "points": 6,
+        "next_diff": 0.04,
+        "desc": "高分精熟！差 0.04 分達 A++，長篇克漏字與精細語意推論稍加留意。",
+        "r_correct": 43,
+        "r_lvl": "精熟",
+        "l_correct": 19,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 43 題(精熟)、聽力答對 19 題(基礎)。 閱讀能力優異達精熟，聽力若能提升至精熟將直接跨入 A++！"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 89.8,
+        "max": 100,
+        "level": "A+",
+        "points": 6,
+        "next_diff": 1.8,
+        "desc": "高分精熟！差 1.8 分晉級 A++，加強幾何證明與非選題步驟完整度。",
+        "choice_correct": 22,
+        "q1_score": 3,
+        "q2_score": 3,
+        "non_choice_total": 6,
+        "non_choice_note": "選擇題答對 22 題，非選第1題得 3 分、第2題得 3 分（非選總計 6/6 分）。 非選擇題書寫步驟條理清晰，表現良好！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 52,
+        "max": 54,
+        "level": "A++",
+        "points": 7,
+        "next_diff": 0,
+        "desc": "頂尖精熟！史地公三大領域概念極度清晰，考前維持手感即可。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 50,
+        "max": 50,
+        "level": "A++",
+        "points": 7,
+        "next_diff": 0,
+        "desc": "頂尖精熟！理化、生物、地科觀念融會貫通，表現極為優異。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【國文、英文、數學】（等級為 A+），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 1 題即可晉升 A）；英文（僅差 0.04 分即可晉級下一標示，單字聽力加強見效快）；數學（僅差 1.8 分即可晉級下一標示，非選加強最快），只要掌握臨門一腳，總積分即可直接提升！"
+    ],
+    "dream_schools": [
+      {
+        "name": "北一女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 33.8,
+        "rank_accum": 1604,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "搭公車或從【捷運新北產業園區站】搭機捷至【台北車站】轉乘紅線一站至【台大醫院站】1號出口步行約 6 分鐘（或搭中和新蘆線轉淡水信義線）。"
+      },
+      {
+        "name": "師大附中(女)",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 33.6,
+        "rank_accum": 2340,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【忠孝新生站】，轉淡水信義線至【大安站】2號出口直達校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "中山女高",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 31.6,
+        "rank_accum": 3690,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線直達【松江南京站】，由 4 號出口步行約 7 分鐘（長安東路二段校門）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "松山高中(女)",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 30.6,
+        "rank_accum": 4336,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【新埔民生/新埔站】或【板橋站】轉搭板南線直達【市政府站】1號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "大同高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 30.6,
+        "rank_accum": 4846,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【松江南京站】或【行天宮站】2號出口步行約 6 分鐘。"
+      },
+      {
+        "name": "中崙高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 29.6,
+        "rank_accum": 5186,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【松江南京站】轉綠線至【南京三民站】2號出口步行約 5 分鐘。"
+      },
+      {
+        "name": "政大附中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 28.8,
+        "rank_accum": 5379,
+        "transit_time": "約 60~65 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【大坪林站】轉公車棕7/綠1至政大附中站，或捷運至動物園站轉乘小10/棕11公車。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "22",
+    "name": "黃映綸",
+    "gender": "女",
+    "total_pts": 18,
+    "pattern": "1A,2B++,1B+,1B",
+    "rank_class": 8,
+    "rank_school": 74,
+    "rank_district": 24877,
+    "rank_gender": 12026,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 33,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 3,
+        "desc": "基礎精熟邊緣！差 3 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 92.56,
+        "max": 100,
+        "level": "A",
+        "points": 5,
+        "next_diff": 3.72,
+        "desc": "精熟級！差 3.72 分達 A+，加強閱讀題組文意推敲及聽力細節掌握。",
+        "r_correct": 39,
+        "r_lvl": "精熟",
+        "l_correct": 21,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 39 題(精熟)、聽力答對 21 題(基礎)。 閱讀能力優異達精熟，聽力若能提升至精熟將直接跨入 A++！"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 67.8,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 0.9,
+        "desc": "基礎中段！差 0.9 分晉級 B++，代數方程式、函數與幾何基本定理需多加題型演練。",
+        "choice_correct": 17,
+        "q1_score": 3,
+        "q2_score": 1,
+        "non_choice_total": 4,
+        "non_choice_note": "選擇題答對 17 題，非選第1題得 3 分、第2題得 1 分（非選總計 4/6 分）。 非選擇題書寫步驟條理清晰，表現良好！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 40,
+        "max": 54,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 1,
+        "desc": "基礎中段！差 1 題晉級 B++，地理地圖判讀與臺灣史/世界史因果關係需加強釐清。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 26,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 3,
+        "desc": "基礎起步！差 3 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【自然】（等級為 B），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 3 題即可晉升 A）；英文（僅差 3.72 分即可晉級下一標示，單字聽力加強見效快）；數學（僅差 0.9 分即可晉級下一標示，非選加強最快）；社會（僅差 1 題即可晉升 B++）；自然（僅差 3 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！"
+    ],
+    "dream_schools": [
+      {
+        "name": "華江高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14007,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】2號出口步行約 8 分鐘抵達西藏路校門。"
+      },
+      {
+        "name": "新北高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14631,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從頭前國中搭公車 982 至徐匯中學轉車，或搭環狀線至【新埔民生】轉公車 813/926，或搭中和新蘆線至【徐匯中學站】轉公車約 5 分鐘抵達三信路校門。"
+      },
+      {
+        "name": "大安高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 19.6,
+        "rank_accum": 15445,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【忠孝新生站】轉淡水信義線至【大安站】2號出口對面即達，高職第一志願！"
+      },
+      {
+        "name": "永春高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 15950,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【永春站】4號出口轉公車 299/279/綠1 直達松山家商/永春高中。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "新店高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17107,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【十四張站】或【大坪林站】轉搭公車或轉松山新店線至【小碧潭站】步行約 5 分鐘抵達。"
+      },
+      {
+        "name": "錦和高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17403,
+        "transit_time": "約 32~38 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【中和站】或【景安站】轉搭公車 橘2/橘3/藍41 直達錦和高中站（錦和路）。"
+      },
+      {
+        "name": "三民高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17767,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線（蘆洲線方向）直達【三民高中站】1號出口出站即達校門，通勤超方便！"
+      },
+      {
+        "name": "萬芳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18107,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆轉公車，或捷運文湖線【萬芳醫院站】步行約 8 分鐘。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "士林高商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 16.6,
+        "rank_accum": 19218,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】或【劍潭站】轉公車紅30至士林高商。"
+      },
+      {
+        "name": "三重高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 19579,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "從頭前國中（思源路口）搭乘公車 299 直達三重高中（集美街），或搭捷運環狀線至【頭前庄站】轉中和新蘆線至【菜寮站】步行約 8 分鐘，極為便利！"
+      },
+      {
+        "name": "竹圍高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 19782,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【竹圍站】轉乘公車或步行約 15 分鐘。"
+      },
+      {
+        "name": "育成高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 20351,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港站】轉公車或由【昆陽站】步行約 10 分鐘。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "23",
+    "name": "賴鈺涵",
+    "gender": "女",
+    "total_pts": 12,
+    "pattern": "1B++,4B",
+    "rank_class": 13,
+    "rank_school": 146,
+    "rank_district": 36434,
+    "rank_gender": 17734,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 35,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 1,
+        "desc": "基礎精熟邊緣！差 1 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 71.1,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 11.2,
+        "desc": "基礎中段！差 11.2 分達 B++，核心單字 1200 與常考文法時態務必完全掌握。",
+        "r_correct": 29,
+        "r_lvl": "基礎",
+        "l_correct": 18,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 29 題(基礎)、聽力答對 18 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 36.5,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 2.5,
+        "desc": "待加強(C)！差 2.5 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 10,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 10 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 30,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 4,
+        "desc": "基礎起步！差 4 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 21,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 8,
+        "desc": "基礎起步！差 8 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【數學】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：國文（僅差 1 題即可晉升 A）；數學（僅差 2.5 分即可晉級下一標示，非選加強最快），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "松山工農",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 14.6,
+        "rank_accum": 23109,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【市政府站】3號出口步行約 5 分鐘抵達松山工農（忠孝東路五段）。"
+      },
+      {
+        "name": "樹林高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 14.6,
+        "rank_accum": 22463,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭台鐵火車一站至【樹林火車站】，步行約 8 分鐘或轉乘公車 701/843 抵達樹林高中。"
+      },
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "24",
+    "name": "黃若涵",
+    "gender": "女",
+    "total_pts": 9,
+    "pattern": "1B+,2B,2C",
+    "rank_class": 22,
+    "rank_school": 249,
+    "rank_district": 46679,
+    "rank_gender": 22947,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 27,
+        "max": 42,
+        "level": "B",
+        "points": 2,
+        "next_diff": 1,
+        "desc": "基礎級！差 1 題晉級 B+，核心字詞語意與白話文閱讀需多做題庫練習以提升正確率。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 75.73,
+        "max": 100,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 6.57,
+        "desc": "基礎中段！差 6.57 分達 B++，核心單字 1200 與常考文法時態務必完全掌握。",
+        "r_correct": 32,
+        "r_lvl": "基礎",
+        "l_correct": 17,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 32 題(基礎)、聽力答對 17 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 10.2,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 28.8,
+        "desc": "待加強(C)！差 28.8 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 3,
+        "q1_score": 0,
+        "q2_score": 0,
+        "non_choice_total": 0,
+        "non_choice_note": "選擇題答對 3 題，非選第1題得 0 分、第2題得 0 分（非選總計 0/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 21,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 13,
+        "desc": "基礎起步！差 13 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 26,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 3,
+        "desc": "基礎起步！差 3 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【數學】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：國文（僅差 1 題即可晉升 B+）；自然（僅差 3 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 0/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      },
+      {
+        "name": "三重商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 26576,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "【鄰近優質高職！】從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【三和國中站】步行約 8 分鐘，或搭乘公車 299 轉乘，非常便利！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      },
+      {
+        "name": "鶯歌工商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 9.6,
+        "rank_accum": 29040,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭台鐵火車至【鶯歌火車站】，搭乘校車或公車約 5 分鐘抵達鶯歌工商（中正三路）。"
+      },
+      {
+        "name": "基隆商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 9.6,
+        "rank_accum": 29475,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "從捷運幸福站至板橋或台北車站轉搭台鐵火車至【七堵火車站】，步行約 7 分鐘抵達東新街校門。"
+      },
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "25",
+    "name": "吳采容",
+    "gender": "女",
+    "total_pts": 12,
+    "pattern": "2B+,3B",
+    "rank_class": 17,
+    "rank_school": 157,
+    "rank_district": 37194,
+    "rank_gender": 18207,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 33,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 3,
+        "desc": "基礎精熟邊緣！差 3 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 58.85,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 10.43,
+        "desc": "基礎起步！差 10.43 分升 B+，加強高頻核心基礎單字，聽力多訓練日常對話題。",
+        "r_correct": 26,
+        "r_lvl": "基礎",
+        "l_correct": 11,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 26 題(基礎)、聽力答對 11 題(待加強)。 閱讀已有基礎，但聽力失分較重，每天聽 15 分鐘英聽可快速提分！"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 43.3,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 16.1,
+        "desc": "基礎起步！差 16.1 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 12,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 12 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 37,
+        "max": 54,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 4,
+        "desc": "基礎中段！差 4 題晉級 B++，地理地圖判讀與臺灣史/世界史因果關係需加強釐清。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 21,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 8,
+        "desc": "基礎起步！差 8 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【英文、數學、自然】（等級為 B），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 3 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！",
+      "英語聽力突破點：英閱已達基礎，但英聽為待加強。英聽題目直觀，每天訓練 15 分鐘常考情境對話，即可大幅拉高加權分數！"
+    ],
+    "dream_schools": [
+      {
+        "name": "松山工農",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 14.6,
+        "rank_accum": 23109,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【市政府站】3號出口步行約 5 分鐘抵達松山工農（忠孝東路五段）。"
+      },
+      {
+        "name": "樹林高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 14.6,
+        "rank_accum": 22463,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭台鐵火車一站至【樹林火車站】，步行約 8 分鐘或轉乘公車 701/843 抵達樹林高中。"
+      },
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "26",
+    "name": "邱筠雲",
+    "gender": "女",
+    "total_pts": 6,
+    "pattern": "1B,4C",
+    "rank_class": 26,
+    "rank_school": 362,
+    "rank_district": 54514,
+    "rank_gender": 26792,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 11,
+        "max": 42,
+        "level": "C",
+        "points": 1,
+        "next_diff": 6,
+        "desc": "待加強(C)！差 6 題即可脫 C 進入基礎 B 級（積分+1）！建議掌握基礎成語、字詞辨析與白話短文閱讀。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 62.61,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 6.67,
+        "desc": "基礎起步！差 6.67 分升 B+，加強高頻核心基礎單字，聽力多訓練日常對話題。",
+        "r_correct": 27,
+        "r_lvl": "基礎",
+        "l_correct": 13,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 27 題(基礎)、聽力答對 13 題(待加強)。 閱讀已有基礎，但聽力失分較重，每天聽 15 分鐘英聽可快速提分！"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 20.4,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 18.6,
+        "desc": "待加強(C)！差 18.6 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 6,
+        "q1_score": 0,
+        "q2_score": 0,
+        "non_choice_total": 0,
+        "non_choice_note": "選擇題答對 6 題，非選第1題得 0 分、第2題得 0 分（非選總計 0/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 20,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 14,
+        "desc": "基礎起步！差 14 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 14,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 5,
+        "desc": "待加強(C)！差 5 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【國文、數學、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "數學非選突破點：本次非選僅得 0/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！",
+      "英語聽力突破點：英閱已達基礎，但英聽為待加強。英聽題目直觀，每天訓練 15 分鐘常考情境對話，即可大幅拉高加權分數！"
+    ],
+    "dream_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "27",
+    "name": "柯亮瑀",
+    "gender": "女",
+    "total_pts": 16,
+    "pattern": "1A,1B++,1B+,2B",
+    "rank_class": 9,
+    "rank_school": 87,
+    "rank_district": 27657,
+    "rank_gender": 13420,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 38,
+        "max": 42,
+        "level": "A",
+        "points": 5,
+        "next_diff": 1,
+        "desc": "精熟級表現！差 1 題晉級 A+，加強長篇題組與文言文對比題型。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 55.26,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 14.02,
+        "desc": "基礎起步！差 14.02 分升 B+，加強高頻核心基礎單字，聽力多訓練日常對話題。",
+        "r_correct": 21,
+        "r_lvl": "基礎",
+        "l_correct": 17,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 21 題(基礎)、聽力答對 17 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 42.4,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 17.0,
+        "desc": "基礎起步！差 17.0 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 11,
+        "q1_score": 2,
+        "q2_score": 0,
+        "non_choice_total": 2,
+        "non_choice_note": "選擇題答對 11 題，非選第1題得 2 分、第2題得 0 分（非選總計 2/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 41,
+        "max": 54,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 7,
+        "desc": "基礎高分！差 7 題跨入 A 等級（積分+1），多加強公民專有名詞與時事圖表整合題型。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 32,
+        "max": 50,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 4,
+        "desc": "基礎中段！差 4 題升至 B++，理化基本公式運算與地科天文地質需加強記憶與觀念連結。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【英文、數學】（等級為 B），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 1 題即可晉升 A），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 2/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "新店高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17107,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【十四張站】或【大坪林站】轉搭公車或轉松山新店線至【小碧潭站】步行約 5 分鐘抵達。"
+      },
+      {
+        "name": "錦和高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17403,
+        "transit_time": "約 32~38 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【中和站】或【景安站】轉搭公車 橘2/橘3/藍41 直達錦和高中站（錦和路）。"
+      },
+      {
+        "name": "三民高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17767,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線（蘆洲線方向）直達【三民高中站】1號出口出站即達校門，通勤超方便！"
+      },
+      {
+        "name": "萬芳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18107,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆轉公車，或捷運文湖線【萬芳醫院站】步行約 8 分鐘。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "士林高商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 16.6,
+        "rank_accum": 19218,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】或【劍潭站】轉公車紅30至士林高商。"
+      },
+      {
+        "name": "三重高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 19579,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "從頭前國中（思源路口）搭乘公車 299 直達三重高中（集美街），或搭捷運環狀線至【頭前庄站】轉中和新蘆線至【菜寮站】步行約 8 分鐘，極為便利！"
+      },
+      {
+        "name": "竹圍高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 19782,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【竹圍站】轉乘公車或步行約 15 分鐘。"
+      },
+      {
+        "name": "育成高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 20351,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港站】轉公車或由【昆陽站】步行約 10 分鐘。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "松山工農",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 14.6,
+        "rank_accum": 23109,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【市政府站】3號出口步行約 5 分鐘抵達松山工農（忠孝東路五段）。"
+      },
+      {
+        "name": "樹林高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 14.6,
+        "rank_accum": 22463,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭台鐵火車一站至【樹林火車站】，步行約 8 分鐘或轉乘公車 701/843 抵達樹林高中。"
+      },
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "28",
+    "name": "簡舒涵",
+    "gender": "女",
+    "total_pts": 12,
+    "pattern": "1B++,4B",
+    "rank_class": 13,
+    "rank_school": 146,
+    "rank_district": 36434,
+    "rank_gender": 17734,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 35,
+        "max": 42,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 1,
+        "desc": "基礎精熟邊緣！差 1 題即可跨入精熟 A 等級（積分+1），衝刺投報率極高！加強閱讀解題技巧。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 58.98,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 10.3,
+        "desc": "基礎起步！差 10.3 分升 B+，加強高頻核心基礎單字，聽力多訓練日常對話題。",
+        "r_correct": 23,
+        "r_lvl": "基礎",
+        "l_correct": 17,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 23 題(基礎)、聽力答對 17 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 33.1,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 5.9,
+        "desc": "待加強(C)！差 5.9 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 9,
+        "q1_score": 0,
+        "q2_score": 1,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 9 題，非選第1題得 0 分、第2題得 1 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 33,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 1,
+        "desc": "基礎起步！差 1 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 25,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 4,
+        "desc": "基礎起步！差 4 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【數學】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：國文（僅差 1 題即可晉升 A）；社會（僅差 1 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "松山工農",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 14.6,
+        "rank_accum": 23109,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【市政府站】3號出口步行約 5 分鐘抵達松山工農（忠孝東路五段）。"
+      },
+      {
+        "name": "樹林高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 14.6,
+        "rank_accum": 22463,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭台鐵火車一站至【樹林火車站】，步行約 8 分鐘或轉乘公車 701/843 抵達樹林高中。"
+      },
+      {
+        "name": "新北高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 13.6,
+        "rank_accum": 23753,
+        "transit_time": "約 28~33 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【板橋站】轉搭板南線至【海山站】1號出口步行約 3 分鐘即可抵達校門，交通十分便捷！"
+      },
+      {
+        "name": "泰山高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中/職探",
+        "min_score": 13.6,
+        "rank_accum": 23911,
+        "transit_time": "約 20~25 分鐘",
+        "transit_route": "【鄰近學區！】從頭前國中搭公車 652/813 轉乘或搭乘 918/803/783 直達泰山高中（辭修路），通勤非常近！"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "29",
+    "name": "陳言沁",
+    "gender": "女",
+    "total_pts": 18,
+    "pattern": "1A++,1B++,1B+,2B",
+    "rank_class": 7,
+    "rank_school": 66,
+    "rank_district": 23367,
+    "rank_gender": 11248,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 41,
+        "max": 42,
+        "level": "A++",
+        "points": 7,
+        "next_diff": 0,
+        "desc": "表現頂尖精熟！保持語感與閱讀文言文速度即可。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 83.21,
+        "max": 100,
+        "level": "B++",
+        "points": 4,
+        "next_diff": 7.49,
+        "desc": "基礎高分邊緣！差 7.49 分即可衝進精熟 A 等級（積分+1）！多讀長篇題組，提高閱讀速度。",
+        "r_correct": 35,
+        "r_lvl": "基礎",
+        "l_correct": 19,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 35 題(基礎)、聽力答對 19 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 35.6,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 3.4,
+        "desc": "待加強(C)！差 3.4 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 9,
+        "q1_score": 2,
+        "q2_score": 0,
+        "non_choice_total": 2,
+        "non_choice_note": "選擇題答對 9 題，非選第1題得 2 分、第2題得 0 分（非選總計 2/6 分）。 非選擇題有拿到部分分數，若能加強論述與解題完整度，能再多拿 2~3 分。"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 39,
+        "max": 54,
+        "level": "B+",
+        "points": 3,
+        "next_diff": 2,
+        "desc": "基礎中段！差 2 題晉級 B++，地理地圖判讀與臺灣史/世界史因果關係需加強釐清。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 25,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 4,
+        "desc": "基礎起步！差 4 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【數學】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：數學（僅差 3.4 分即可晉級下一標示，非選加強最快）；社會（僅差 2 題即可晉升 B++），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 2/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "華江高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14007,
+        "transit_time": "約 35~40 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【龍山寺站】2號出口步行約 8 分鐘抵達西藏路校門。"
+      },
+      {
+        "name": "新北高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 20.6,
+        "rank_accum": 14631,
+        "transit_time": "約 30~35 分鐘",
+        "transit_route": "從頭前國中搭公車 982 至徐匯中學轉車，或搭環狀線至【新埔民生】轉公車 813/926，或搭中和新蘆線至【徐匯中學站】轉公車約 5 分鐘抵達三信路校門。"
+      },
+      {
+        "name": "大安高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 19.6,
+        "rank_accum": 15445,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線至【忠孝新生站】轉淡水信義線至【大安站】2號出口對面即達，高職第一志願！"
+      },
+      {
+        "name": "永春高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 19.6,
+        "rank_accum": 15950,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉板南線至【永春站】4號出口轉公車 299/279/綠1 直達松山家商/永春高中。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "新店高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17107,
+        "transit_time": "約 40~45 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線直達【十四張站】或【大坪林站】轉搭公車或轉松山新店線至【小碧潭站】步行約 5 分鐘抵達。"
+      },
+      {
+        "name": "錦和高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17403,
+        "transit_time": "約 32~38 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【中和站】或【景安站】轉搭公車 橘2/橘3/藍41 直達錦和高中站（錦和路）。"
+      },
+      {
+        "name": "三民高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 18.6,
+        "rank_accum": 17767,
+        "transit_time": "約 25~30 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【頭前庄站】轉中和新蘆線（蘆洲線方向）直達【三民高中站】1號出口出站即達校門，通勤超方便！"
+      },
+      {
+        "name": "萬芳高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 17.6,
+        "rank_accum": 18107,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆轉公車，或捷運文湖線【萬芳醫院站】步行約 8 分鐘。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "士林高商",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 16.6,
+        "rank_accum": 19218,
+        "transit_time": "約 45~50 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【士林站】或【劍潭站】轉公車紅30至士林高商。"
+      },
+      {
+        "name": "三重高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 19579,
+        "transit_time": "約 22~28 分鐘",
+        "transit_route": "從頭前國中（思源路口）搭乘公車 299 直達三重高中（集美街），或搭捷運環狀線至【頭前庄站】轉中和新蘆線至【菜寮站】步行約 8 分鐘，極為便利！"
+      },
+      {
+        "name": "竹圍高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 19782,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉淡水信義線至【竹圍站】轉乘公車或步行約 15 分鐘。"
+      },
+      {
+        "name": "育成高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 16.6,
+        "rank_accum": 20351,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港站】轉公車或由【昆陽站】步行約 10 分鐘。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "30",
+    "name": "馮羽婕",
+    "gender": "女",
+    "total_pts": 10,
+    "pattern": "5B",
+    "rank_class": 19,
+    "rank_school": 209,
+    "rank_district": 42825,
+    "rank_gender": 21035,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 25,
+        "max": 42,
+        "level": "B",
+        "points": 2,
+        "next_diff": 3,
+        "desc": "基礎級！差 3 題晉級 B+，核心字詞語意與白話文閱讀需多做題庫練習以提升正確率。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 59.03,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 10.25,
+        "desc": "基礎起步！差 10.25 分升 B+，加強高頻核心基礎單字，聽力多訓練日常對話題。",
+        "r_correct": 22,
+        "r_lvl": "基礎",
+        "l_correct": 19,
+        "l_lvl": "基礎",
+        "detail_note": "閱讀答對 22 題(基礎)、聽力答對 19 題(基礎)。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 43.3,
+        "max": 100,
+        "level": "B",
+        "points": 2,
+        "next_diff": 16.1,
+        "desc": "基礎起步！差 16.1 分達 B+，加強課本基礎習題，穩拿選擇題前 12 題分數。",
+        "choice_correct": 12,
+        "q1_score": 1,
+        "q2_score": 0,
+        "non_choice_total": 1,
+        "non_choice_note": "選擇題答對 12 題，非選第1題得 1 分、第2題得 0 分（非選總計 1/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 29,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 5,
+        "desc": "基礎起步！差 5 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 24,
+        "max": 50,
+        "level": "B",
+        "points": 2,
+        "next_diff": 5,
+        "desc": "基礎起步！差 5 題晉級 B+，理化常考基礎題與生物地科基本概念務必鞏固。"
+      }
+    },
+    "weakness_summary": [
+      "相對弱項科目：【國文、英文、數學、社會、自然】（等級為 B），建議作為下一階段複習重點。",
+      "最高 CP 值衝刺契機：國文（僅差 3 題即可晉升 B+），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 1/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "秀峰高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 12.6,
+        "rank_accum": 24726,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉搭公車 919/605 或搭台鐵至【汐止火車站】步行約 8 分鐘。"
+      },
+      {
+        "name": "明德高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25064,
+        "transit_time": "約 50~60 分鐘",
+        "transit_route": "從【捷運幸福站】搭環狀線至【板橋站】轉搭 910/916 快速公車經國道三號至三峽【明德高中】。"
+      },
+      {
+        "name": "石碇高中",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 11.6,
+        "rank_accum": 25233,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至大坪林或景美轉公車 666 直達石碇高中。"
+      },
+      {
+        "name": "淡水商工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 11.6,
+        "rank_accum": 25968,
+        "transit_time": "約 55~65 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至民權西路轉紅線至【淡水站】轉搭專車或公車 紅26/860 至淡水商工。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "內湖高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27154,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至頭前庄轉中和新蘆線至松江南京轉綠線至南京復興轉文湖線至【港墘站】2號出口步行約 3 分鐘。"
+      },
+      {
+        "name": "南港高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 27800,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線直達【南港站】或【南港軟體園區站】步行約 5 分鐘抵達校門。"
+      },
+      {
+        "name": "木柵高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 10.6,
+        "rank_accum": 28344,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至大坪林轉綠線至萬隆/景美轉公車，或搭文湖線至【木柵站】出站步行約 3 分鐘。"
+      },
+      {
+        "name": "樟樹高中",
+        "gender": "男女兼收",
+        "type": "公立高中/技職實創",
+        "min_score": 9.6,
+        "rank_accum": 28510,
+        "transit_time": "約 50~55 分鐘",
+        "transit_route": "搭環狀線至板橋轉板南線至【南港展覽館站】轉乘公車 605/919 約 10 分鐘至樟樹高中站（大同路一段）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      },
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      }
+    ]
+  },
+  {
+    "class": "07",
+    "class_full": "907",
+    "seat": "31",
+    "name": "潘彥蓁",
+    "gender": "女",
+    "total_pts": 6,
+    "pattern": "1B,4C",
+    "rank_class": 27,
+    "rank_school": 368,
+    "rank_district": 54802,
+    "rank_gender": 26924,
+    "subjects": {
+      "chinese": {
+        "subject": "國文",
+        "correct": 12,
+        "max": 42,
+        "level": "C",
+        "points": 1,
+        "next_diff": 5,
+        "desc": "待加強(C)！差 5 題即可脫 C 進入基礎 B 級（積分+1）！建議掌握基礎成語、字詞辨析與白話短文閱讀。"
+      },
+      "english": {
+        "subject": "英文",
+        "score": 34.66,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 3.77,
+        "desc": "待加強(C)！差 3.77 分即可脫 C 升入 B（積分+1）！每天背 10 個核心初級單字，聽力掌握基本問候與生活句型。",
+        "r_correct": 13,
+        "r_lvl": "待加強",
+        "l_correct": 11,
+        "l_lvl": "待加強",
+        "detail_note": "閱讀答對 13 題(待加強)、聽力答對 11 題(待加強)。 閱讀與聽力皆在待加強，建議從國中基礎單字 800 字及每日 10 分鐘英聽磨耳朵開始救起。"
+      },
+      "math": {
+        "subject": "數學",
+        "score": 17.0,
+        "max": 100,
+        "level": "C",
+        "points": 1,
+        "next_diff": 22.0,
+        "desc": "待加強(C)！差 22.0 分即可脫 C 跨入 B 級（積分+1）！非選題只要動筆寫出基本公式便能拿部分分數，選擇題先保握基礎運算。",
+        "choice_correct": 5,
+        "q1_score": 0,
+        "q2_score": 0,
+        "non_choice_total": 0,
+        "non_choice_note": "選擇題答對 5 題，非選第1題得 0 分、第2題得 0 分（非選總計 0/6 分）。 非選擇題失分較重，非選題切記『寫出相關公式與算式即有基本分』，不可空白！"
+      },
+      "society": {
+        "subject": "社會",
+        "correct": 23,
+        "max": 54,
+        "level": "B",
+        "points": 2,
+        "next_diff": 11,
+        "desc": "基礎起步！差 11 題晉級 B+，建議將國中歷史重點年表與公民基本觀念重新梳理。"
+      },
+      "science": {
+        "subject": "自然",
+        "correct": 11,
+        "max": 50,
+        "level": "C",
+        "points": 1,
+        "next_diff": 8,
+        "desc": "待加強(C)！差 8 題即可脫 C 進入 B 級（積分+1）！建議掌握生物與地科的基本記憶題，理化只抓基礎公式題。"
+      }
+    },
+    "weakness_summary": [
+      "待加強核心科目：【國文、英文、數學、自然】落入待加強(C)，這是拉低總積分的主因，務必優先攻克以達成全科『脫 C』目標！",
+      "最高 CP 值衝刺契機：英文（僅差 3.77 分即可晉級下一標示，單字聽力加強見效快），只要掌握臨門一腳，總積分即可直接提升！",
+      "數學非選突破點：本次非選僅得 0/6 分。會考非選評分重視解題概念，列出相關公式或代數列式即可獲得 1~2 分基本分，切勿留白！"
+    ],
+    "dream_schools": [
+      {
+        "name": "海大附中",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 8.6,
+        "rank_accum": 29827,
+        "transit_time": "約 70~80 分鐘",
+        "transit_route": "搭環狀線至板橋或北車轉台鐵至【基隆火車站】轉搭基隆市公車 103/104 直達海大附中。"
+      },
+      {
+        "name": "瑞芳高工",
+        "gender": "男女兼收",
+        "type": "公立技術型高中",
+        "min_score": 7.0,
+        "rank_accum": 30234,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車直達【瑞芳火車站】，步行約 6 分鐘抵達校門。"
+      }
+    ],
+    "target_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      },
+      {
+        "name": "金山高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31454,
+        "transit_time": "約 80~90 分鐘",
+        "transit_route": "搭捷運至台北車站轉國光客運 1815 直達金山高中站（提供原住民及遠道學生住宿）。"
+      }
+    ],
+    "safe_schools": [
+      {
+        "name": "基隆高中(男/女)",
+        "gender": "男女兼收",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30888,
+        "transit_time": "約 60~70 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵火車至【八堵火車站】，出站步行約 3 分鐘即達基隆高中。"
+      },
+      {
+        "name": "基隆女中",
+        "gender": "女",
+        "type": "公立普通高中",
+        "min_score": 6.0,
+        "rank_accum": 30654,
+        "transit_time": "約 65~75 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵至【基隆火車站】轉公車 201/202 至基隆女中（東信路）。"
+      },
+      {
+        "name": "雙溪高中",
+        "gender": "男女兼收",
+        "type": "公立完全中學",
+        "min_score": 5.0,
+        "rank_accum": 31293,
+        "transit_time": "約 75~85 分鐘",
+        "transit_route": "搭環狀線至板橋轉台鐵區間快車直達【雙溪火車站】，出站步行約 8 分鐘抵達校門（提供學生宿舍）。"
+      }
+    ]
+  }
+]
