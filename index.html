@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新北市立頭前國民中學 - 定期評量成績查詢與管理系統</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="header-bar">
+    <div class="header-container">
+      <div class="school-brand">
+        <div class="school-logo-badge">頭</div>
+        <div class="school-titles">
+          <h1>新北市立頭前國民中學</h1>
+          <p>定期評量成績公布與查詢系統 ‧ 115學年度 第1學期</p>
+        </div>
+      </div>
+      <nav class="nav-tabs">
+        <button type="button" class="nav-tab-btn active" id="tab-btn-query" onclick="switchTab('query')">
+          <span>🔍</span> 學生/家長查詢
+        </button>
+        <button type="button" class="nav-tab-btn" id="tab-btn-teacher" onclick="switchTab('teacher')">
+          <span>📝</span> 導師成績管理
+        </button>
+        <button type="button" class="nav-tab-btn" id="tab-btn-stats" onclick="switchTab('stats')">
+          <span>📊</span> 全班表現統計
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+
+    <!-- ==================== TAB 1: 學生/家長查詢專區 ==================== -->
+    <section id="view-query">
+      <!-- Query Box Hero -->
+      <div class="query-box-hero no-print">
+        <h2><span>🎓</span> 學生定期評量成績查詢</h2>
+        <p>歡迎學生及家長使用！請依序輸入班級、座號、姓名及身分證末三碼進行身分查驗。</p>
+
+        <!-- Official System Disclaimer in Query Hero -->
+        <div style="background: rgba(255, 255, 255, 0.9); border: 1.5px solid #93c5fd; border-radius: var(--radius-md); padding: 0.75rem 1rem; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem; color: #1e40af; font-size: 0.92rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+          <span style="font-size: 1.25rem; line-height: 1;">📢</span>
+          <div>
+            <strong>【系統說明與重要提醒】</strong>本網頁為導師即時提供家長掌握學生段考表現與學習進退步之輔助專區，<strong>學生各項最後正式成績與學期評量紀錄，仍一律以「新北市校務行政系統」為主</strong>。
+          </div>
+        </div>
+
+        <form id="student-query-form" onsubmit="handleStudentQuery(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="query-exam">評量梯次</label>
+              <select id="query-exam" class="form-control">
+                <option value="curr">907班 115學年度第1學期第1次段考 (本次)</option>
+                <option value="prev">807班 114學年度第2學期第3次段考 (歷史)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="query-class">班級</label>
+              <select id="query-class" class="form-control">
+                <option value="907">九年七班 (907)</option>
+                <option value="807">八年七班 (807)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="query-seat">座號</label>
+              <input type="text" id="query-seat" class="form-control" placeholder="請輸入座號 (例: 01 或 1)" required autocomplete="off">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="query-name">學生姓名</label>
+              <input type="text" id="query-name" class="form-control" placeholder="請輸入學生完整姓名" required autocomplete="off">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="query-id3">身分證末 3 碼</label>
+              <div class="input-with-icon">
+                <input type="password" id="query-id3" class="form-control" placeholder="請輸入身分證後3碼" maxlength="4" required autocomplete="off">
+                <button type="button" class="toggle-password-btn" onclick="togglePasswordVisibility('query-id3')" title="顯示/隱藏">👁️</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-row">
+            <button type="submit" class="btn btn-primary">
+              <span>🔍</span> 立即查詢成績
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="resetQueryForm()">
+              <span>🔄</span> 清除重填
+            </button>
+          </div>
+
+          <!-- Demo Quick Fill Buttons -->
+          <div class="demo-chips-box">
+            <span style="color: var(--gray-600); font-weight: 600;">快速體驗測試：</span>
+            <button type="button" class="demo-chip" onclick="quickFill('01', '陳品澄', '138')">01號 陳品澄 (後3碼 138)</button>
+            <button type="button" class="demo-chip" onclick="quickFill('05', '郭宸良', '270')">05號 郭宸良 (後3碼 270)</button>
+            <button type="button" class="demo-chip" onclick="quickFill('15', '蘇子睿', '351')">15號 蘇子睿 (後3碼 351)</button>
+            <button type="button" class="demo-chip" onclick="quickFill('17', '林盈妡', '670')">17號 林盈妡 (後3碼 670)</button>
+            <button type="button" class="demo-chip" onclick="quickFill('21', '賴律穎', '728')">21號 賴律穎 (後3碼 728)</button>
+            <button type="button" class="demo-chip" onclick="quickFill('31', '潘彥蓁', '055')">31號 潘彥蓁 (後3碼 055)</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Alert Message Box -->
+      <div id="query-alert" class="alert-box alert-danger" style="display: none;"></div>
+
+      <!-- Result Card Container (Shown upon successful query) -->
+      <div id="query-result-card" style="display: none;">
+        <!-- Pending Notice Banner (if any subjects or school ranks not entered yet) -->
+        <div id="query-pending-banner" class="alert-box alert-info no-print" style="display: none; border-left: 4px solid var(--primary-light); margin-bottom: 1.25rem;"></div>
+
+        <!-- Student Hero Banner -->
+        <div class="result-header-card">
+          <div class="result-hero-top">
+            <div class="student-identity">
+              <div class="student-avatar" id="res-avatar">🎓</div>
+              <div class="student-info">
+                <h2>
+                  <span id="res-name">陳品澄</span>
+                  <span class="badge-tag" id="res-class-badge">九年七班 01號</span>
+                </h2>
+                <div class="student-meta">
+                  <span>學號：<strong id="res-student-id">355084</strong></span>
+                  <span>評量梯次：<strong id="res-exam-title">907班 115學年度第1學期第1次段考</strong></span>
+                </div>
+              </div>
+            </div>
+            <div class="no-print">
+              <button type="button" class="btn btn-secondary btn-sm" onclick="window.print()" style="color: white; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4);">
+                <span>🖨️</span> 列印成績通知單
+              </button>
+            </div>
+          </div>
+
+          <!-- KPI Cards Grid -->
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-label">本次段考總分</div>
+              <div class="kpi-value" id="res-total">282.5</div>
+              <div class="kpi-diff" id="res-total-diff">
+                <span>較上次</span> <strong id="res-diff-val">+7.0</strong>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">本次段考平均</div>
+              <div class="kpi-value" id="res-avg">56.5</div>
+              <div class="kpi-diff" id="res-avg-diff">
+                <span>班級平均: </span> <strong id="res-class-avg">68.2</strong>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">班級名次</div>
+              <div class="kpi-value" id="res-rank">第 22 名</div>
+              <div class="kpi-diff" id="res-rank-diff">
+                <span>上次名次: </span> <strong id="res-prev-rank">第 22 名</strong>
+              </div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">年級名次 (參考)</div>
+              <div class="kpi-value" id="res-grade-rank">第 264 名</div>
+              <div class="kpi-diff" id="res-grade-rank-diff">
+                <span>上次年名次: </span> <strong id="res-prev-grade-rank">第 264 名</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Result Card Disclaimer Banner -->
+        <div style="background: #fffbeb; border: 1.5px solid #fcd34d; border-radius: var(--radius-md); padding: 0.85rem 1.25rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; color: #92400e; font-size: 0.92rem; box-shadow: 0 1px 2px rgba(0,0,0,0.05);" class="no-print">
+          <span style="font-size: 1.35rem; line-height: 1;">📌</span>
+          <div>
+            <strong>成績查閱須知：</strong>本系統為導師即時提供家長掌握學習進退步之專區，<strong>最後正式段考成績、學期評量與排名紀錄，仍一律以「新北市校務行政系統」登載為準。</strong>
+          </div>
+        </div>
+
+        <!-- Comparison Table Card -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <span>📋</span> 本次段考與上次段考詳細成績比較表
+            </div>
+            <div style="font-size: 0.85rem; color: var(--gray-500);">
+              對照基準：807班 114學年度第2學期第3次段考
+            </div>
+          </div>
+          <div class="card-body" style="padding: 0;">
+            <div class="table-responsive">
+              <table class="custom-table" id="comparison-table">
+                <thead>
+                  <tr>
+                    <th>評量項目 / 科目</th>
+                    <th>上次成績 (807-11423)</th>
+                    <th>本次成績 (907)</th>
+                    <th>進退步差異</th>
+                    <th>本次班平均</th>
+                    <th>與班平均差</th>
+                  </tr>
+                </thead>
+                <tbody id="comparison-table-body">
+                  <!-- Dynamically populated -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Analytics Charts -->
+        <div class="charts-grid no-print">
+          <div class="chart-card">
+            <h4><span>🕸️</span> 五科能力平衡雷達圖 (本次 vs 上次 vs 班平均)</h4>
+            <div class="chart-wrapper">
+              <canvas id="studentRadarChart"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <h4><span>📊</span> 科目成績柱狀比較圖</h4>
+            <div class="chart-wrapper">
+              <canvas id="studentBarChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Teacher's Motivational Note -->
+        <div class="feedback-card">
+          <div class="feedback-icon">💌</div>
+          <div class="feedback-content">
+            <h4>導師學習勉勵與分析建議</h4>
+            <p id="res-teacher-comment">
+              <!-- Dynamically populated -->
+            </p>
+          </div>
+        </div>
+
+        <!-- Print-only Signature Area -->
+        <div class="print-signature-area" style="flex-direction: column; gap: 0.75rem;">
+          <div style="font-size: 0.85rem; color: #444; text-align: right; border-bottom: 1px dashed #999; padding-bottom: 0.5rem; width: 100%;">
+            ※ 備註：本成績通知單係導師即時輔導學習成效之即時紀錄，學生最後正式評量成績一律以「新北市校務行政系統」登載為準。
+          </div>
+          <div style="display: flex; justify-content: space-between; width: 100%; margin-top: 0.5rem;">
+            <div>導師簽章：____________________</div>
+            <div>教務處註冊組：____________________</div>
+            <div>家長簽名或查閱確簽：____________________</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; text-align: center;" class="no-print">
+          <button type="button" class="btn btn-secondary" onclick="resetQueryForm()">
+            <span>🔍</span> 查詢其他學生
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 2: 導師成績管理專區 ==================== -->
+    <section id="view-teacher" style="display: none;">
+      <!-- Teacher Login Card (Protected Authentication View) -->
+      <div id="teacher-login-view" class="card" style="max-width: 480px; margin: 2rem auto; box-shadow: var(--shadow-lg);">
+        <div class="card-header" style="justify-content: center; text-align: center; background: linear-gradient(135deg, #1e3a8a, #2563eb); color: white;">
+          <div class="card-title" style="font-size: 1.25rem; color: white;">
+            <span>🔐</span> 907 導師專屬身分驗證
+          </div>
+        </div>
+        <div class="card-body" style="padding: 1.75rem;">
+          <p style="color: var(--gray-600); font-size: 0.95rem; margin-bottom: 1.25rem; text-align: center;">
+            成績登錄專區受權限保護，請輸入<strong>907 班導師專用帳號與密碼</strong>以解鎖成績輸入與管理功能。
+          </p>
+
+          <div id="teacher-login-alert" class="alert-box alert-danger" style="display: none;"></div>
+
+          <form id="teacher-login-form" onsubmit="handleTeacherLogin(event)">
+            <div class="form-group" style="margin-bottom: 1rem;">
+              <label class="form-label" for="teacher-acc">導師帳號</label>
+              <input type="text" id="teacher-acc" class="form-control" placeholder="請輸入導師帳號 (907導師)" required autocomplete="username">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 1.25rem;">
+              <label class="form-label" for="teacher-pwd">管理密碼</label>
+              <div class="input-with-icon">
+                <input type="password" id="teacher-pwd" class="form-control" placeholder="請輸入管理密碼 (123456789)" required autocomplete="current-password">
+                <button type="button" class="toggle-password-btn" onclick="togglePasswordVisibility('teacher-pwd')" title="顯示/隱藏密碼">👁️</button>
+              </div>
+            </div>
+
+            <div class="btn-row" style="justify-content: center; margin-bottom: 1rem;">
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.75rem; font-size: 1rem;">
+                <span>🔑</span> 驗證並登入成績管理系統
+              </button>
+            </div>
+
+            <div style="text-align: center; margin-top: 0.75rem;">
+              <button type="button" class="demo-chip" onclick="quickFillTeacherLogin()" style="width: 100%; text-align: center; border-radius: var(--radius-sm); padding: 0.5rem;">
+                ⚡ 快捷登入測試 (帳號: 907導師 / 密碼: 123456789)
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Teacher Main Content (Accessible only when logged in) -->
+      <div id="teacher-content-view" style="display: none;">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <span>👩‍🏫</span> 907班 段考成績登錄與管理系統
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <span class="badge-tag" style="background: #15803d; color: white;">👤 907導師 已驗證登入</span>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="logoutTeacher()">
+                <span>🚪</span> 登出
+              </button>
+            </div>
+          </div>
+
+        <!-- Teacher Toolbar -->
+        <div class="teacher-toolbar">
+          <div class="tool-buttons">
+            <button type="button" class="btn btn-success" onclick="saveGradesToStorage()">
+              <span>💾</span> 儲存成績
+            </button>
+            <button type="button" class="btn btn-primary" onclick="exportCurrentToExcel()">
+              <span>📤</span> 匯出 907 班成績表 (Excel)
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="triggerExcelImport()">
+              <span>📥</span> 匯入 Excel / CSV
+            </button>
+            <input type="file" id="excel-import-file" style="display: none;" accept=".xlsx, .xls, .csv" onchange="handleExcelImport(event)">
+            <button type="button" class="btn btn-secondary" onclick="exportPrevToExcel()">
+              <span>📄</span> 下載 807 班前次成績表 (Excel)
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="recalculateAllRanks()">
+              <span>🧮</span> 重新計算名次
+            </button>
+          </div>
+
+          <div class="tool-buttons">
+            <button type="button" class="btn btn-secondary btn-sm" onclick="toggleIdMasking()">
+              <span id="mask-btn-icon">👁️</span> <span id="mask-btn-text">顯示身分證字號</span>
+            </button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="resetToSampleGrades()">
+              <span>🔄</span> 載入預設示範成績
+            </button>
+            <button type="button" class="btn btn-danger btn-sm" onclick="clearGradesForEntry()">
+              <span>🧹</span> 清空成績重新輸入
+            </button>
+          </div>
+        </div>
+
+        <!-- Guidance Banner -->
+        <div style="padding: 0.75rem 1.5rem; background: #f0fdf4; border-bottom: 1px solid #bbf7d0; font-size: 0.9rem; color: #166534; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+          <div>
+            <strong>⌨️ 導師極速打分提示：</strong>
+            游標點入第 1 號國文輸入分數後，按 <strong>Enter</strong> 或 <strong>Tab</strong> 自動跳至英語；打完自然科按 <strong>Enter</strong> 會自動跳到下一號同學國文！總分、平均與進退步自動即時計算。
+            <span style="display: block; font-size: 0.82rem; color: #047857; margin-top: 0.25rem;">
+              📌 <strong>系統定位說明：</strong>本專區為導師即時提供家長掌握學習進退步之輔助平台，學生各項最終正式成績與學期評量紀錄，仍請以<strong>「新北市校務行政系統」</strong>為準。
+            </span>
+          </div>
+          <div id="save-status-indicator" style="font-size: 0.85rem; color: var(--gray-600); font-weight: 600;">
+            狀態：資料已就緒
+          </div>
+        </div>
+
+        <!-- Teacher Grade Input Table -->
+        <div class="card-body" style="padding: 0;">
+          <div class="table-responsive" style="max-height: 700px; overflow-y: auto;">
+            <table class="custom-table" id="teacher-entry-table">
+              <thead>
+                <tr style="position: sticky; top: 0; z-index: 10; background: #e2e8f0;">
+                  <th style="width: 50px;">座號</th>
+                  <th style="width: 80px;">姓名</th>
+                  <th style="width: 110px;">身分證號</th>
+                  <th style="width: 80px;">國文</th>
+                  <th style="width: 80px;">英語</th>
+                  <th style="width: 80px;">數學</th>
+                  <th style="width: 80px;">社會</th>
+                  <th style="width: 80px;">自然</th>
+                  <th style="width: 85px;">總分</th>
+                  <th style="width: 75px;">平均</th>
+                  <th style="width: 70px;">班名次</th>
+                  <th style="width: 75px;">年名次</th>
+                  <th style="width: 85px;">上次總分</th>
+                  <th style="width: 85px;">進退步</th>
+                </tr>
+              </thead>
+              <tbody id="teacher-entry-tbody">
+                <!-- Dynamically populated rows 01 ~ 31 -->
+              </tbody>
+              <tfoot id="teacher-entry-tfoot" style="position: sticky; bottom: 0; background: #f8fafc; font-weight: 700; border-top: 2px solid var(--primary-light);">
+                <!-- Average summary row -->
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ==================== TAB 3: 全班成績統計分析專區 ==================== -->
+    <section id="view-stats" style="display: none;">
+      <!-- Stats Overview KPI Grid -->
+      <div class="stats-overview-grid">
+        <div class="stat-box">
+          <div class="title">全班受試人數</div>
+          <div class="number" id="stat-count">31</div>
+          <div class="subtext">九年七班總人數</div>
+        </div>
+        <div class="stat-box">
+          <div class="title">本次班平均總分</div>
+          <div class="number" id="stat-avg-total">341.2</div>
+          <div class="subtext" id="stat-diff-total">較上次 +14.3 分</div>
+        </div>
+        <div class="stat-box">
+          <div class="title">本次班總平均分</div>
+          <div class="number" id="stat-avg-score">68.2</div>
+          <div class="subtext">五科總平均</div>
+        </div>
+        <div class="stat-box">
+          <div class="title">班最高總分</div>
+          <div class="number" id="stat-max-score" style="color: var(--success);">489.0</div>
+          <div class="subtext" id="stat-max-student">座號 21 賴律穎</div>
+        </div>
+      </div>
+
+      <!-- Subject Averages & Pass Rate Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>📚</span> 各科平均分數與及格率分析
+          </div>
+        </div>
+        <div class="card-body" style="padding: 0;">
+          <div class="table-responsive">
+            <table class="custom-table" id="subject-stats-table">
+              <thead>
+                <tr>
+                  <th>學科</th>
+                  <th>本次班平均</th>
+                  <th>上次班平均 (807)</th>
+                  <th>平均分消長</th>
+                  <th>及格人數 (>=60)</th>
+                  <th>不及格人數 (&lt;60)</th>
+                  <th>及格率 (%)</th>
+                </tr>
+              </thead>
+              <tbody id="subject-stats-tbody">
+                <!-- Dynamic subject rows -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts for Class Distribution -->
+      <div class="charts-grid">
+        <div class="chart-card">
+          <h4><span>📊</span> 各科全班平均對比 (本次 vs 上次)</h4>
+          <div class="chart-wrapper">
+            <canvas id="classSubjectChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card">
+          <h4><span>📈</span> 總分級距人數分布</h4>
+          <div class="chart-wrapper">
+            <canvas id="gradeDistributionChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Star of Progress Cards -->
+      <div class="card" style="margin-top: 1.5rem;">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🌟</span> 本次段考「進步之星」前五名榮譽榜 (總分進步最多同學)
+          </div>
+          <div style="font-size: 0.85rem; color: var(--gray-600);">
+            鼓勵努力不懈、勇於突破的優秀同學！
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="star-list" id="progress-star-container">
+            <!-- Dynamically populated star cards -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Footer Disclaimer -->
+    <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--gray-300); text-align: center; color: var(--gray-500); font-size: 0.88rem;" class="no-print">
+      <p style="margin-bottom: 0.35rem; font-weight: 600; color: var(--gray-700);">新北市立頭前國民中學 ‧ 九年七班段考成績即時查詢與輔導系統</p>
+      <p style="color: #b45309; font-weight: 600;">
+        📢 本系統為導師即時提供家長掌握學習狀況之輔助工具，各項最後正式成績與學期評量紀錄，均以<strong>「新北市校務行政系統」</strong>公告為準。
+      </p>
+    </footer>
+
+  </main>
+
+  <!-- Vendor Libraries: Local first, fallback to CDN -->
+  <script src="lib/xlsx.full.min.js"></script>
+  <script src="lib/chart.umd.js"></script>
+  <!-- Initial Dataset -->
+  <script src="initial_data.js"></script>
+  <!-- Main Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
